@@ -27,6 +27,7 @@
   "quick_task",
   "column_break_tyodi",
   "allow_odometer_reading_input",
+  "submit_timesheet",
   "section_break_npr4y",
   "version",
   "update_version_forcefully",
@@ -169,12 +170,19 @@
    "fieldname": "check_in_with_location",
    "fieldtype": "Check",
    "label": "Check in with location"
+  },
+  {
+   "default": "0",
+   "description": "Timesheet submit from ESS mobile app",
+   "fieldname": "submit_timesheet",
+   "fieldtype": "Check",
+   "label": "Submit Timesheet"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-10-30 19:10:25.062705",
+ "modified": "2024-04-04 22:29:10.233245",
  "modified_by": "Administrator",
  "module": "Employee Self Service",
  "name": "Employee Self Service Settings",
