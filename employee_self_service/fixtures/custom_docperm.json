@@ -19,7 +19,6 @@
   "report": 0,
   "role": "Employee",
   "select": 1,
-  "set_user_permissions": 0,
   "share": 0,
   "submit": 0,
   "write": 0
@@ -44,7 +43,6 @@
   "report": 1,
   "role": "Employee",
   "select": 1,
-  "set_user_permissions": 0,
   "share": 0,
   "submit": 0,
   "write": 0
