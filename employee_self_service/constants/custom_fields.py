@@ -48,6 +48,22 @@ CUSTOM_FIELDS = {
             "insert_after": "location",
         },
     ],
+    "Item Group": [
+        {
+            "fieldname": "show_in_mobile",
+            "label": "Show in Mobile",
+            "fieldtype": "Check",
+            "insert_after": "column_break_5",
+        },
+    ],
+    "Item": [
+        {
+            "fieldname": "show_in_mobile",
+            "label": "Show in Mobile",
+            "fieldtype": "Check",
+            "insert_after": "disabled",
+        },
+    ],
 }
 
 

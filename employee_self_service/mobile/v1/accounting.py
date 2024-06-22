@@ -68,6 +68,21 @@ def get_default_company_cost_center(company):
     except Exception as e:
         return exception_handler(e)
 
+@frappe.whitelist()
+@ess_validate(methods=["GET"])
+def get_company_list():
+    try:
+        company_list = frappe.get_list("Company", pluck="name")
+        return gen_response(
+            200,
+            "Company List get successfully",
+            company_list,
+        )
+    except frappe.PermissionError as e:
+        return gen_response(500, frappe.flags.error_message)
+    except Exception as e:
+        return exception_handler(e)
+
 
 @frappe.whitelist()
 @ess_validate(methods=["POST"])

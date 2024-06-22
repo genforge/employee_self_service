@@ -35,6 +35,7 @@ def get_order_list(start=0, page_length=10, filters=None):
             "Sales Order",
             fields=[
                 "name",
+                "customer",
                 "customer_name",
                 "DATE_FORMAT(transaction_date, '%d-%m-%Y') as transaction_date",
                 "grand_total",
@@ -87,6 +88,7 @@ def get_order(*args, **kwargs):
         )
         for response_field in [
             "name",
+            "customer",
             "transaction_date",
             "delivery_date",
             "workflow_state",
@@ -96,6 +98,8 @@ def get_order(*args, **kwargs):
             "contact_email",
             "contact_mobile",
             "contact_phone",
+            "cost_center",
+            "company",
         ]:
             order_data[response_field] = order_doc.get(response_field)
         item_list = []
@@ -189,11 +193,13 @@ def get_customer_list(start=0, page_length=10, filters=None):
 
 @frappe.whitelist()
 @ess_validate(methods=["GET"])
-def get_item_list():
+def get_item_list(filters=None):
     try:
+        if not filters:
+            filters = []
+        filters.append(["Item", "show_in_mobile", "=", 1])
         item_list = frappe.get_list(
-            "Item",
-            fields=["name", "item_name", "item_code", "image"],
+            "Item", fields=["name", "item_name", "item_code", "image"], filters=filters
         )
         items = get_items_rate(item_list)
         gen_response(200, "Item list get successfully", items)
@@ -221,6 +227,26 @@ def get_items_rate(items):
         )
         item["rate"] = item_price[0].price_list_rate if item_price else 0.0
     return items
+
+
+@frappe.whitelist()
+def scan_item(barcode):
+    try:
+        from erpnext.stock.utils import scan_barcode
+
+        item_details = scan_barcode(barcode)
+        item_list = frappe.get_list(
+            "Item",
+            filters={"name": item_details.get("item_code")},
+            fields=["name", "item_name", "item_code", "image"],
+        )
+        items = get_items_rate(item_list)
+        if len(items) >= 1:
+            gen_response(200, "Item list get successfully", items[0])
+        else:
+            gen_response(500, "Item does not exists")
+    except Exception as e:
+        return exception_handler(e)
 
 
 @frappe.whitelist()
@@ -331,3 +357,20 @@ def _create_update_order(data, sales_order_doc, default_warehouse):
     sales_order_doc.run_method("set_missing_values")
     sales_order_doc.run_method("calculate_taxes_and_totals")
     sales_order_doc.save()
+
+
+@frappe.whitelist()
+@ess_validate(methods=["GET", "POST"])
+def get_item_group_list(filters=None):
+    try:
+        if not filters:
+            filters = []
+        filters.append(["Item Group", "show_in_mobile", "=", 1])
+        item_group_list = frappe.get_list(
+            "Item Group", fields=["name"], filters=filters
+        )
+        gen_response(200, "Item group list get successfully", item_group_list)
+    except frappe.PermissionError:
+        return gen_response(500, "Not permitted for item")
+    except Exception as e:
+        return exception_handler(e)

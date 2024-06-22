@@ -3,6 +3,2148 @@
   "docstatus": 0,
   "doctype": "Ess Translation",
   "language": "en",
+  "modified": "2024-05-02 15:46:23.221433",
+  "name": "en-Camera permission is required !!!",
+  "source_text": "Camera permission is required !!!",
+  "translated_text": "Camera permission is required !!!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 15:53:10.131234",
+  "name": "en-Payment",
+  "source_text": "Payment",
+  "translated_text": "قسط"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 15:55:50.592335",
+  "name": "ar-Camera permission is required !!!",
+  "source_text": "Camera permission is required !!!",
+  "translated_text": "مطلوب إذن الكاميرا !!!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 15:58:04.118505",
+  "name": "en-Petty Expenses",
+  "source_text": "Petty Expenses",
+  "translated_text": "Petty Expenses"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 15:58:19.726440",
+  "name": "ar-Petty Expenses",
+  "source_text": "Petty Expenses",
+  "translated_text": "النفقات النثرية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:02:53.064559",
+  "name": "en-Issue",
+  "source_text": "Issue",
+  "translated_text": "Issue"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:03:15.107684",
+  "name": "ar-Issue",
+  "source_text": "Issue",
+  "translated_text": "مشكلة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:13:54.335096",
+  "name": "en-Timesheet",
+  "source_text": "Timesheet",
+  "translated_text": "Timesheet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:14:16.559178",
+  "name": "ar-Timesheet",
+  "source_text": "Timesheet",
+  "translated_text": "ورقة التوقيت"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:19:04.776860",
+  "name": "en-Internet connection is required !!!",
+  "source_text": "Internet connection is required !!!",
+  "translated_text": "Internet connection is required !!!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:19:43.843104",
+  "name": "ar-Internet connection is required !!!",
+  "source_text": "Internet connection is required !!!",
+  "translated_text": "مطلوب اتصال بالإنترنت !!!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:22:01.853216",
+  "name": "en-No data to sync",
+  "source_text": "No data to sync",
+  "translated_text": "No data to sync"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:25:27.220003",
+  "name": "ar-No data to sync",
+  "source_text": "No data to sync",
+  "translated_text": "لا توجد بيانات للمزامنة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:34:36.514506",
+  "name": "en-Whoa there! ⏳ We\"re not time travelers yet. Give it a minute before trying again!",
+  "source_text": "Whoa there! ⏳ We\"re not time travelers yet. Give it a minute before trying again!",
+  "translated_text": "Whoa there! ⏳ We\"re not time travelers yet. Give it a minute before trying again!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:34:57.415485",
+  "name": "ar-Whoa there! ⏳ We\"re not time travelers yet. Give it a minute before trying again!",
+  "source_text": "Whoa there! ⏳ We\"re not time travelers yet. Give it a minute before trying again!",
+  "translated_text": "قف هناك! ⏳ نحن لسنا مسافرين عبر الزمن بعد. امنحها دقيقة واحدة قبل المحاولة مرة أخرى!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 16:41:28.378169",
+  "name": "en-Hold your horses! 🐎 Let's savor the present moment before leaping into the future.",
+  "source_text": "Hold your horses! 🐎 Let's savor the present moment before leaping into the future.",
+  "translated_text": "Hold your horses! 🐎 Let's savor the present moment before leaping into the future."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 16:41:52.123379",
+  "name": "ar-Hold your horses! 🐎 Let's savor the present moment before leaping into the future.",
+  "source_text": "Hold your horses! 🐎 Let's savor the present moment before leaping into the future.",
+  "translated_text": "اكبح جماح نفسك! 🐎 دعونا نستمتع باللحظة الحالية قبل القفز إلى المستقبل."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 20:55:05.871189",
+  "name": "en-Feeling restless, huh? 🤔 Take a breather and come back in a jiffy!",
+  "source_text": "Feeling restless, huh? 🤔 Take a breather and come back in a jiffy!",
+  "translated_text": "Feeling restless, huh? 🤔 Take a breather and come back in a jiffy!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 20:55:25.254907",
+  "name": "ar-Feeling restless, huh? 🤔 Take a breather and come back in a jiffy!",
+  "source_text": "Feeling restless, huh? 🤔 Take a breather and come back in a jiffy!",
+  "translated_text": "الشعور بعدم الراحة، هاه؟ 🤔 خذ قسطًا من الراحة وارجع في لمح البصر!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 20:59:24.567227",
+  "name": "en-Oops! 🙊 Looks like you're trying to break the land speed record for check-ins. Slow and steady wins the race!",
+  "source_text": "Oops! 🙊 Looks like you're trying to break the land speed record for check-ins. Slow and steady wins the race!",
+  "translated_text": "Oops! 🙊 Looks like you're trying to break the land speed record for check-ins. Slow and steady wins the race!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:00:11.945563",
+  "name": "ar-Oops! 🙊 Looks like you're trying to break the land speed record for check-ins. Slow and steady wins the race!",
+  "source_text": "Oops! 🙊 Looks like you're trying to break the land speed record for check-ins. Slow and steady wins the race!",
+  "translated_text": "أُووبس! 🙊 يبدو أنك تحاول تحطيم الرقم القياسي للسرعة الأرضية لتسجيلات الوصول. بالأناة تنال المبتغى!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:03:29.927244",
+  "name": "en-Easy there, speed racer! 🏎️ We're on office time, not warp speed time.",
+  "source_text": "Easy there, speed racer! 🏎️ We're on office time, not warp speed time.",
+  "translated_text": "Easy there, speed racer! 🏎️ We're on office time, not warp speed time."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:03:47.712841",
+  "name": "ar-Easy there, speed racer! 🏎️ We're on office time, not warp speed time.",
+  "source_text": "Easy there, speed racer! 🏎️ We're on office time, not warp speed time.",
+  "translated_text": "من السهل هناك، متسابق السرعة! 🏎️ نحن في وقت المكتب، وليس وقت السرعة."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:07:30.466561",
+  "name": "en-Attention, time enthusiasts! ⏰ Remember, patience is a virtue. Give it a moment to catch up.",
+  "source_text": "Attention, time enthusiasts! ⏰ Remember, patience is a virtue. Give it a moment to catch up.",
+  "translated_text": "Attention, time enthusiasts! ⏰ Remember, patience is a virtue. Give it a moment to catch up."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:07:50.749544",
+  "name": "ar-Attention, time enthusiasts! ⏰ Remember, patience is a virtue. Give it a moment to catch up.",
+  "source_text": "Attention, time enthusiasts! ⏰ Remember, patience is a virtue. Give it a moment to catch up.",
+  "translated_text": "انتبهوا يا عشاق الوقت! ⏰تذكر أن الصبر فضيلة. امنحها لحظة للحاق بها."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:10:29.139075",
+  "name": "en-Warning: Rapid check-ins detected! ⚠️ Please refrain from time-hopping antics.",
+  "source_text": "Warning: Rapid check-ins detected! ⚠️ Please refrain from time-hopping antics.",
+  "translated_text": "Warning: Rapid check-ins detected! ⚠️ Please refrain from time-hopping antics."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:10:47.045566",
+  "name": "ar-Warning: Rapid check-ins detected! ⚠️ Please refrain from time-hopping antics.",
+  "source_text": "Warning: Rapid check-ins detected! ⚠️ Please refrain from time-hopping antics.",
+  "translated_text": "تحذير: تم اكتشاف تسجيلات دخول سريعة! ⚠️ يرجى الامتناع عن التصرفات الغريبة التي تتنقل عبر الزمن."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:13:58.497786",
+  "name": "en-Looks like someone's eager to get going! 🚀 Take a chill pill and wait a sec.",
+  "source_text": "Looks like someone's eager to get going! 🚀 Take a chill pill and wait a sec.",
+  "translated_text": "Looks like someone's eager to get going! 🚀 Take a chill pill and wait a sec."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:14:12.649109",
+  "name": "ar-Looks like someone's eager to get going! 🚀 Take a chill pill and wait a sec.",
+  "source_text": "Looks like someone's eager to get going! 🚀 Take a chill pill and wait a sec.",
+  "translated_text": "يبدو أن هناك من يريد الذهاب! 🚀 تناول حبة البرد وانتظر ثانية."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:16:45.426604",
+  "name": "en-Brace yourself! Rapid check-ins may cause time-space continuum disturbances.",
+  "source_text": "Brace yourself! Rapid check-ins may cause time-space continuum disturbances.",
+  "translated_text": "Brace yourself! Rapid check-ins may cause time-space continuum disturbances."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:17:04.549986",
+  "name": "ar-Brace yourself! Rapid check-ins may cause time-space continuum disturbances.",
+  "source_text": "Brace yourself! Rapid check-ins may cause time-space continuum disturbances.",
+  "translated_text": "أظهر نفسك! قد تتسبب عمليات تسجيل الوصول السريعة في حدوث اضطرابات في استمرارية الزمان والمكان."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:20:25.139309",
+  "name": "en-Hold on tight! 🎢 Our servers are catching up with your enthusiasm for check-ins.",
+  "source_text": "Hold on tight! 🎢 Our servers are catching up with your enthusiasm for check-ins.",
+  "translated_text": "Hold on tight! 🎢 Our servers are catching up with your enthusiasm for check-ins."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:20:40.496759",
+  "name": "ar-Hold on tight! 🎢 Our servers are catching up with your enthusiasm for check-ins.",
+  "source_text": "Hold on tight! 🎢 Our servers are catching up with your enthusiasm for check-ins.",
+  "translated_text": "تمسك بقوة! 🎢 خوادمنا تواكب حماسك لتسجيل الوصول."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:23:37.169946",
+  "name": "en-Please select party type first !",
+  "source_text": "Please select party type first !",
+  "translated_text": "Please select party type first !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:23:52.156375",
+  "name": "ar-Please select party type first !",
+  "source_text": "Please select party type first !",
+  "translated_text": "الرجاء تحديد نوع الحفلة أولاً!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:26:24.182572",
+  "name": "en-Clear",
+  "source_text": "Clear",
+  "translated_text": "Clear"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:26:37.952427",
+  "name": "ar-Clear",
+  "source_text": "Clear",
+  "translated_text": "واضح"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:28:38.752341",
+  "name": "en-Close",
+  "source_text": "Close",
+  "translated_text": "Close"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:28:53.593948",
+  "name": "ar-Close",
+  "source_text": "Close",
+  "translated_text": "يغلق"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:32:42.881321",
+  "name": "en-Search by name or mobile number",
+  "source_text": "Search by name or mobile number",
+  "translated_text": "Search by name or mobile number"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:32:57.625429",
+  "name": "ar-Search by name or mobile number",
+  "source_text": "Search by name or mobile number",
+  "translated_text": "البحث بالاسم أو رقم الجوال"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:35:47.476999",
+  "name": "en-No Customers Found !",
+  "source_text": "No Customers Found !",
+  "translated_text": "No Customers Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:36:07.462109",
+  "name": "ar-No Customers Found !",
+  "source_text": "No Customers Found !",
+  "translated_text": "لم يتم العثور على عملاء!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-02 21:38:23.769152",
+  "name": "en-No Projects Found !",
+  "source_text": "No Projects Found !",
+  "translated_text": "No Projects Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-02 21:38:35.450387",
+  "name": "ar-No Projects Found !",
+  "source_text": "No Projects Found !",
+  "translated_text": "لم يتم العثور على مشاريع!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:10:24.738172",
+  "name": "en-Payment Entry",
+  "source_text": "Payment Entry",
+  "translated_text": "Payment Entry"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:10:38.187095",
+  "name": "ar-Payment Entry",
+  "source_text": "Payment Entry",
+  "translated_text": "إدخال الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:16:49.064156",
+  "name": "en-Petty Expense",
+  "source_text": "Petty Expense",
+  "translated_text": "Petty Expense"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:17:01.451801",
+  "name": "ar-Petty Expense",
+  "source_text": "Petty Expense",
+  "translated_text": "النفقات النثرية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:34:41.367282",
+  "name": "en-Enter ERP Code",
+  "source_text": "Enter ERP Code",
+  "translated_text": "Enter ERP Code"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:36:08.248512",
+  "name": "ar-Enter ERP Code",
+  "source_text": "Enter ERP Code",
+  "translated_text": "أدخل رمز تخطيط موارد المؤسسات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:40:01.588551",
+  "name": "en-required!",
+  "source_text": "required!",
+  "translated_text": "required!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:40:14.717380",
+  "name": "ar-required!",
+  "source_text": "required!",
+  "translated_text": "مطلوب!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:45:38.638360",
+  "name": "en-It seems you're not yet registered with us. Register using below button.",
+  "source_text": "It seems you're not yet registered with us. Register using below button.",
+  "translated_text": "It seems you're not yet registered with us. Register using below button."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:46:00.635715",
+  "name": "ar-It seems you're not yet registered with us. Register using below button.",
+  "source_text": "It seems you're not yet registered with us. Register using below button.",
+  "translated_text": "يبدو أنك لم تسجل معنا بعد. قم بالتسجيل باستخدام الزر أدناه."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:49:21.235172",
+  "name": "en-Register for ESS",
+  "source_text": "Register for ESS",
+  "translated_text": "Register for ESS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:50:13.904629",
+  "name": "ar-Register for ESS",
+  "source_text": "Register for ESS",
+  "translated_text": "قم بالتسجيل في ESS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:53:58.973169",
+  "name": "en-ERP Code",
+  "source_text": "ERP Code",
+  "translated_text": "ERP Code"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:54:10.721313",
+  "name": "ar-ERP Code",
+  "source_text": "ERP Code",
+  "translated_text": "كود تخطيط موارد المؤسسات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 09:56:35.827128",
+  "name": "en-Workplace URL",
+  "source_text": "Workplace URL",
+  "translated_text": "Workplace URL"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 09:56:54.885661",
+  "name": "ar-Workplace URL",
+  "source_text": "Workplace URL",
+  "translated_text": "عنوان URL لمكان العمل"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:02:05.685002",
+  "name": "en-You can only upload 5 photos at a time",
+  "source_text": "You can only upload 5 photos at a time",
+  "translated_text": "You can only upload 5 photos at a time"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:02:19.997041",
+  "name": "ar-You can only upload 5 photos at a time",
+  "source_text": "You can only upload 5 photos at a time",
+  "translated_text": "يمكنك تحميل 5 صور فقط في المرة الواحدة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:04:44.588370",
+  "name": "en-You can only upload 1 video at a time",
+  "source_text": "You can only upload 1 video at a time",
+  "translated_text": "You can only upload 1 video at a time"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:04:57.357071",
+  "name": "ar-You can only upload 1 video at a time",
+  "source_text": "You can only upload 1 video at a time",
+  "translated_text": "يمكنك تحميل فيديو واحد فقط في المرة الواحدة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:07:31.861753",
+  "name": "en-Please enter some text or select some photos",
+  "source_text": "Please enter some text or select some photos",
+  "translated_text": "Please enter some text or select some photos"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:07:42.570419",
+  "name": "ar-Please enter some text or select some photos",
+  "source_text": "Please enter some text or select some photos",
+  "translated_text": "الرجاء إدخال بعض النصوص أو تحديد بعض الصور"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:10:20.910978",
+  "name": "en-Posting in progress, uploading in background...",
+  "source_text": "Posting in progress, uploading in background...",
+  "translated_text": "Posting in progress, uploading in background..."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:10:37.371603",
+  "name": "ar-Posting in progress, uploading in background...",
+  "source_text": "Posting in progress, uploading in background...",
+  "translated_text": "جاري النشر، جاري التحميل في الخلفية..."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:14:00.503025",
+  "name": "en-Create Post",
+  "source_text": "Create Post",
+  "translated_text": "Create Post"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:14:14.482835",
+  "name": "ar-Create Post",
+  "source_text": "Create Post",
+  "translated_text": "إنشاء مشاركة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:16:16.972876",
+  "name": "en-Create Poll",
+  "source_text": "Create Poll",
+  "translated_text": "Create Poll"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:16:37.057316",
+  "name": "ar-Create Poll",
+  "source_text": "Create Poll",
+  "translated_text": "إنشاء استطلاع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:20:21.156356",
+  "name": "en-Delete Post",
+  "source_text": "Delete Post",
+  "translated_text": "Delete Post"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:20:36.933142",
+  "name": "ar-Delete Post",
+  "source_text": "Delete Post",
+  "translated_text": "حذف آخر"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:22:15.181480",
+  "name": "en-Are you sure you want to delete this post?",
+  "source_text": "Are you sure you want to delete this post?",
+  "translated_text": "Are you sure you want to delete this post?"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:22:36.839557",
+  "name": "ar-Are you sure you want to delete this post?",
+  "source_text": "Are you sure you want to delete this post?",
+  "translated_text": "هل أنت متأكد أنك تريد حذف هذه المشاركة؟"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:25:08.383351",
+  "name": "en-Liked By",
+  "source_text": "Liked By",
+  "translated_text": "Liked By"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:25:21.894544",
+  "name": "ar-Liked By",
+  "source_text": "Liked By",
+  "translated_text": "تم الإعجاب من قِبل"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:33:59.564927",
+  "name": "en-Images",
+  "source_text": "Images",
+  "translated_text": "Images"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:34:15.719610",
+  "name": "ar-Images",
+  "source_text": "Images",
+  "translated_text": "الصور"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 10:55:45.343200",
+  "name": "en-Author",
+  "source_text": "Author",
+  "translated_text": "Author"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 10:55:58.418836",
+  "name": "ar-Author",
+  "source_text": "Author",
+  "translated_text": "مؤلف"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 17:19:09.975051",
+  "name": "en-Comment",
+  "source_text": "Comment",
+  "translated_text": "Comment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 17:19:49.943813",
+  "name": "ar-Comment",
+  "source_text": "Comment",
+  "translated_text": "تعليق"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:21:43.449306",
+  "name": "en-No Timesheet Entry Found !",
+  "source_text": "No Timesheet Entry Found !",
+  "translated_text": "No Timesheet Entry Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:21:58.065137",
+  "name": "ar-No Timesheet Entry Found !",
+  "source_text": "No Timesheet Entry Found !",
+  "translated_text": "لم يتم العثور على إدخال الجدول الزمني!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:23:51.980223",
+  "name": "en-View on ERP",
+  "source_text": "View on ERP",
+  "translated_text": "View on ERP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:24:05.147993",
+  "name": "ar-View on ERP",
+  "source_text": "View on ERP",
+  "translated_text": "عرض على تخطيط موارد المؤسسات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:25:58.173414",
+  "name": "en-Action",
+  "source_text": "Action",
+  "translated_text": "Action"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:26:10.428932",
+  "name": "ar-Action",
+  "source_text": "Action",
+  "translated_text": "فعل"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:27:40.112377",
+  "name": "en-Approval Requests",
+  "source_text": "Approval Requests",
+  "translated_text": "Approval Requests"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:27:53.347108",
+  "name": "ar-Approval Requests",
+  "source_text": "Approval Requests",
+  "translated_text": "طلبات الموافقة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:30:09.343733",
+  "name": "en-Update Issue",
+  "source_text": "Update Issue",
+  "translated_text": "Update Issue"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:30:21.808844",
+  "name": "ar-Update Issue",
+  "source_text": "Update Issue",
+  "translated_text": "مشكلة التحديث"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:31:49.242555",
+  "name": "en-New Issue",
+  "source_text": "New Issue",
+  "translated_text": "New Issue"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:32:07.168841",
+  "name": "ar-New Issue",
+  "source_text": "New Issue",
+  "translated_text": "مشكلة جديدة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:34:05.002187",
+  "name": "en-Customer",
+  "source_text": "Customer",
+  "translated_text": "Customer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:34:17.481209",
+  "name": "ar-Customer",
+  "source_text": "Customer",
+  "translated_text": "عميل"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:35:36.858761",
+  "name": "en-Project",
+  "source_text": "Project",
+  "translated_text": "Project"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:35:47.193533",
+  "name": "ar-Project",
+  "source_text": "Project",
+  "translated_text": "مشروع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:37:27.759263",
+  "name": "en-Issue Type",
+  "source_text": "Issue Type",
+  "translated_text": "Issue Type"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:37:38.907475",
+  "name": "ar-Issue Type",
+  "source_text": "Issue Type",
+  "translated_text": "نوع القضية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:39:49.258855",
+  "name": "en-Save",
+  "source_text": "Save",
+  "translated_text": "Save"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:40:07.581783",
+  "name": "ar-Save",
+  "source_text": "Save",
+  "translated_text": "يحفظ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:43:23.312871",
+  "name": "en-Filter Issue",
+  "source_text": "Filter Issue",
+  "translated_text": "Filter Issue"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:43:33.786764",
+  "name": "ar-Filter Issue",
+  "source_text": "Filter Issue",
+  "translated_text": "مشكلة التصفية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:58:19.706097",
+  "name": "en-No Issue Entry Found !",
+  "source_text": "No Issue Entry Found !",
+  "translated_text": "No Issue Entry Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:58:32.334480",
+  "name": "ar-No Issue Entry Found !",
+  "source_text": "No Issue Entry Found !",
+  "translated_text": "لم يتم العثور على إدخال مشكلة!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 21:59:04.298508",
+  "name": "en-Date Range",
+  "source_text": "Date Range",
+  "translated_text": "Date Range"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 21:59:15.835580",
+  "name": "ar-Date Range",
+  "source_text": "Date Range",
+  "translated_text": "نطاق الموعد"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:03:43.449858",
+  "name": "en-Date",
+  "source_text": "Date",
+  "translated_text": "Date"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:03:57.919242",
+  "name": "ar-Date",
+  "source_text": "Date",
+  "translated_text": "تاريخ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:05:27.094902",
+  "name": "en-No Orders Found !",
+  "source_text": "No Orders Found !",
+  "translated_text": "No Orders Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:05:41.343239",
+  "name": "ar-No Orders Found !",
+  "source_text": "No Orders Found !",
+  "translated_text": "لم يتم العثور على أية طلبات !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:07:35.594072",
+  "name": "en-Filter Orders",
+  "source_text": "Filter Orders",
+  "translated_text": "Filter Orders"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:07:51.195712",
+  "name": "ar-Filter Orders",
+  "source_text": "Filter Orders",
+  "translated_text": "أوامر التصفية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:09:22.713719",
+  "name": "en-Paid Amount*",
+  "source_text": "Paid Amount*",
+  "translated_text": "Paid Amount*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:10:14.854501",
+  "name": "ar-Paid Amount*",
+  "source_text": "Paid Amount*",
+  "translated_text": "المبلغ المدفوع*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:11:56.912318",
+  "name": "en-Reference no.",
+  "source_text": "Reference no.",
+  "translated_text": "Reference no."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:12:23.553465",
+  "name": "ar-Reference no.",
+  "source_text": "Reference no.",
+  "translated_text": "رقم المرجع."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:15:16.408362",
+  "name": "en-Select Naming Series",
+  "source_text": "Select Naming Series",
+  "translated_text": "Select Naming Series"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:15:44.954641",
+  "name": "ar-Select Naming Series",
+  "source_text": "Select Naming Series",
+  "translated_text": "حدد سلسلة التسمية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:17:33.448210",
+  "name": "en-Naming Series",
+  "source_text": "Naming Series",
+  "translated_text": "Naming Series"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:21:03.696394",
+  "name": "ar-Naming Series",
+  "source_text": "Naming Series",
+  "translated_text": "سلسلة التسمية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:23:27.119524",
+  "name": "en-Select Payment Type",
+  "source_text": "Select Payment Type",
+  "translated_text": "Select Payment Type"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:23:50.591250",
+  "name": "ar-Select Payment Type",
+  "source_text": "Select Payment Type",
+  "translated_text": "اختر طريقة الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:25:57.666998",
+  "name": "en-Payment Type*",
+  "source_text": "Payment Type*",
+  "translated_text": "Payment Type*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:26:24.950966",
+  "name": "ar-Payment Type*",
+  "source_text": "Payment Type*",
+  "translated_text": "نوع الدفع*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:30:08.212210",
+  "name": "en-Select Payment Mode",
+  "source_text": "Select Payment Mode",
+  "translated_text": "Select Payment Mode"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:30:27.921586",
+  "name": "ar-Select Payment Mode",
+  "source_text": "Select Payment Mode",
+  "translated_text": "حدد وضع الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:32:02.763959",
+  "name": "en-Payment Mode",
+  "source_text": "Payment Mode",
+  "translated_text": "Payment Mode"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:32:19.766426",
+  "name": "ar-Payment Mode",
+  "source_text": "Payment Mode",
+  "translated_text": "طريقة الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:34:05.043297",
+  "name": "en-Select Company",
+  "source_text": "Select Company",
+  "translated_text": "Select Company"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:34:19.385414",
+  "name": "ar-Select Company",
+  "source_text": "Select Company",
+  "translated_text": "اختر الشركة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:38:02.583092",
+  "name": "en-Party Type*",
+  "source_text": "Party Type*",
+  "translated_text": "Party Type*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:38:38.712106",
+  "name": "ar-Party Type*",
+  "source_text": "Party Type*",
+  "translated_text": "نوع الحفلة*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:40:24.552407",
+  "name": "en-Party*",
+  "source_text": "Party*",
+  "translated_text": "Party*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:40:38.490658",
+  "name": "ar-Party*",
+  "source_text": "Party*",
+  "translated_text": "حزب*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:42:41.120259",
+  "name": "en-Select Account Paid From",
+  "source_text": "Select Account Paid From",
+  "translated_text": "Select Account Paid From"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:42:57.789546",
+  "name": "ar-Select Account Paid From",
+  "source_text": "Select Account Paid From",
+  "translated_text": "حدد الحساب المدفوع منه"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:44:27.306459",
+  "name": "en-Account Paid From*",
+  "source_text": "Account Paid From*",
+  "translated_text": "Account Paid From*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:44:39.274806",
+  "name": "ar-Account Paid From*",
+  "source_text": "Account Paid From*",
+  "translated_text": "الحساب المدفوع من*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:46:15.639229",
+  "name": "en-Select Account Paid To",
+  "source_text": "Select Account Paid To",
+  "translated_text": "Select Account Paid To"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:46:31.002787",
+  "name": "ar-Select Account Paid To",
+  "source_text": "Select Account Paid To",
+  "translated_text": "حدد الحساب المدفوع إليه"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:48:14.682661",
+  "name": "en-Account Paid To*",
+  "source_text": "Account Paid To*",
+  "translated_text": "Account Paid To*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:48:34.632090",
+  "name": "ar-Account Paid To*",
+  "source_text": "Account Paid To*",
+  "translated_text": "الحساب المدفوع ل*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:50:19.810959",
+  "name": "en-Reference Date",
+  "source_text": "Reference Date",
+  "translated_text": "Reference Date"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:50:32.383080",
+  "name": "ar-Reference Date",
+  "source_text": "Reference Date",
+  "translated_text": "التاريخ المرجعي"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:52:01.045014",
+  "name": "en-No References Found",
+  "source_text": "No References Found",
+  "translated_text": "No References Found"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:52:16.180506",
+  "name": "ar-No References Found",
+  "source_text": "No References Found",
+  "translated_text": "لم يتم العثور على أي مراجع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:54:26.862114",
+  "name": "en-Reference",
+  "source_text": "Reference",
+  "translated_text": "Reference"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:54:42.694056",
+  "name": "ar-Reference",
+  "source_text": "Reference",
+  "translated_text": "مرجع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:55:50.550003",
+  "name": "en-Outstanding",
+  "source_text": "Outstanding",
+  "translated_text": "Outstanding"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:56:04.938198",
+  "name": "ar-Outstanding",
+  "source_text": "Outstanding",
+  "translated_text": "متميز"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:57:27.953911",
+  "name": "en-Allocate",
+  "source_text": "Allocate",
+  "translated_text": "Allocate"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:57:47.825913",
+  "name": "ar-Allocate",
+  "source_text": "Allocate",
+  "translated_text": "تخصيص"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 22:59:06.362348",
+  "name": "en-Total Allocated",
+  "source_text": "Total Allocated",
+  "translated_text": "Total Allocated"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 22:59:21.718395",
+  "name": "ar-Total Allocated",
+  "source_text": "Total Allocated",
+  "translated_text": "إجمالي المخصص"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:00:58.469947",
+  "name": "en-Total Unallocated",
+  "source_text": "Total Unallocated",
+  "translated_text": "Total Unallocated"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:01:12.651504",
+  "name": "ar-Total Unallocated",
+  "source_text": "Total Unallocated",
+  "translated_text": "المجموع غير المخصص"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:04:45.256695",
+  "name": "en-No Payment Entry Found !",
+  "source_text": "No Payment Entry Found !",
+  "translated_text": "No Payment Entry Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:04:57.118332",
+  "name": "ar-No Payment Entry Found !",
+  "source_text": "No Payment Entry Found !",
+  "translated_text": "لم يتم العثور على إدخال الدفع!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:06:58.757044",
+  "name": "en-Filter Payment Entries",
+  "source_text": "Filter Payment Entries",
+  "translated_text": "Filter Payment Entries"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:07:12.401674",
+  "name": "ar-Filter Payment Entries",
+  "source_text": "Filter Payment Entries",
+  "translated_text": "تصفية إدخالات الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:08:44.964424",
+  "name": "en-Payment Entries",
+  "source_text": "Payment Entries",
+  "translated_text": "Payment Entries"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:09:03.253055",
+  "name": "ar-Payment Entries",
+  "source_text": "Payment Entries",
+  "translated_text": "إدخالات الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:11:32.192493",
+  "name": "en-Type",
+  "source_text": "Type",
+  "translated_text": "Type"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:11:46.493854",
+  "name": "ar-Type",
+  "source_text": "Type",
+  "translated_text": "يكتب"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:12:57.988241",
+  "name": "en-Posting Date",
+  "source_text": "Posting Date",
+  "translated_text": "Posting Date"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:13:13.690205",
+  "name": "ar-Posting Date",
+  "source_text": "Posting Date",
+  "translated_text": "تاريخ النشر"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:15:53.645192",
+  "name": "en-Select Status",
+  "source_text": "Select Status",
+  "translated_text": "Select Status"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:16:06.851009",
+  "name": "ar-Select Status",
+  "source_text": "Select Status",
+  "translated_text": "حدد الحالة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:19:30.630237",
+  "name": "en-Supplier",
+  "source_text": "Supplier",
+  "translated_text": "Supplier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:19:44.635847",
+  "name": "ar-Supplier",
+  "source_text": "Supplier",
+  "translated_text": "المورد"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:25:57.734765",
+  "name": "en-Select Expense Account",
+  "source_text": "Select Expense Account",
+  "translated_text": "Select Expense Account"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:26:11.272914",
+  "name": "ar-Select Expense Account",
+  "source_text": "Select Expense Account",
+  "translated_text": "حدد حساب المصاريف"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:28:02.707152",
+  "name": "en-Expense Account*",
+  "source_text": "Expense Account*",
+  "translated_text": "Expense Account*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:28:13.777302",
+  "name": "ar-Expense Account*",
+  "source_text": "Expense Account*",
+  "translated_text": "حساب المصاريف*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:30:12.800108",
+  "name": "en-Select Cost Center",
+  "source_text": "Select Cost Center",
+  "translated_text": "Select Cost Center"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:30:27.240166",
+  "name": "ar-Select Cost Center",
+  "source_text": "Select Cost Center",
+  "translated_text": "حدد مركز التكلفة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:32:29.837498",
+  "name": "en-Cost Center*",
+  "source_text": "Cost Center*",
+  "translated_text": "Cost Center*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:32:59.369127",
+  "name": "ar-Cost Center*",
+  "source_text": "Cost Center*",
+  "translated_text": "مركز تقييم الكلفة، مركز التسعير، مركز التثمين*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:50:51.774086",
+  "name": "en-Select Payment",
+  "source_text": "Select Payment",
+  "translated_text": "Select Payment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:51:37.034759",
+  "name": "ar-Select Payment",
+  "source_text": "Select Payment",
+  "translated_text": "حدد الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-03 23:53:57.586837",
+  "name": "en-Mode Of Payment*",
+  "source_text": "Mode Of Payment*",
+  "translated_text": "Mode Of Payment*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-03 23:54:15.339008",
+  "name": "ar-Mode Of Payment*",
+  "source_text": "Mode Of Payment*",
+  "translated_text": "طريقة الدفع*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 00:09:48.818345",
+  "name": "en-Petty Details",
+  "source_text": "Petty Details",
+  "translated_text": "Petty Details"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 00:10:05.774977",
+  "name": "ar-Petty Details",
+  "source_text": "Petty Details",
+  "translated_text": "تفاصيل تافهة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 08:47:58.738879",
+  "name": "en-Filter Petty Expense",
+  "source_text": "Filter Petty Expense",
+  "translated_text": "Filter Petty Expense"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 08:48:12.822532",
+  "name": "ar-Filter Petty Expense",
+  "source_text": "Filter Petty Expense",
+  "translated_text": "تصفية المصروفات النثرية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 08:50:07.369792",
+  "name": "en-No Petty Entry Found !",
+  "source_text": "No Petty Entry Found !",
+  "translated_text": "No Petty Entry Found !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 08:50:25.634596",
+  "name": "ar-No Petty Entry Found !",
+  "source_text": "No Petty Entry Found !",
+  "translated_text": "لم يتم العثور على إدخال تافه!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 08:53:54.704234",
+  "name": "en-Select Mode Of Payment",
+  "source_text": "Select Mode Of Payment",
+  "translated_text": "Select Mode Of Payment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 08:54:05.034548",
+  "name": "ar-Select Mode Of Payment",
+  "source_text": "Select Mode Of Payment",
+  "translated_text": "حدد طريقة الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 08:56:14.358646",
+  "name": "en-Mode",
+  "source_text": "Mode",
+  "translated_text": "Mode"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 08:56:26.097956",
+  "name": "ar-Mode",
+  "source_text": "Mode",
+  "translated_text": "وضع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:00:46.445193",
+  "name": "en-Select Task",
+  "source_text": "Select Task",
+  "translated_text": "Select Task"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:01:00.968236",
+  "name": "ar-Select Task",
+  "source_text": "Select Task",
+  "translated_text": "حدد المهمة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:01:25.972531",
+  "name": "en-Task",
+  "source_text": "Task",
+  "translated_text": "Task"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:01:38.119408",
+  "name": "ar-Task",
+  "source_text": "Task",
+  "translated_text": "مهمة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:03:06.918711",
+  "name": "en-Note",
+  "source_text": "Note",
+  "translated_text": "Note"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:03:20.755522",
+  "name": "ar-Note",
+  "source_text": "Note",
+  "translated_text": "ملحوظة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:04:24.812272",
+  "name": "en-Timesheets",
+  "source_text": "Timesheets",
+  "translated_text": "Timesheets"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:04:35.412812",
+  "name": "ar-Timesheets",
+  "source_text": "Timesheets",
+  "translated_text": "الجداول الزمنية"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:09:40.612513",
+  "name": "en-Filter Timesheet",
+  "source_text": "Filter Timesheet",
+  "translated_text": "Filter Timesheet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:09:53.554805",
+  "name": "ar-Filter Timesheet",
+  "source_text": "Filter Timesheet",
+  "translated_text": "تصفية الجدول الزمني"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:13:54.529264",
+  "name": "en-Total Hours:",
+  "source_text": "Total Hours:",
+  "translated_text": "Total Hours:"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:14:06.252332",
+  "name": "ar-Total Hours:",
+  "source_text": "Total Hours:",
+  "translated_text": "مجموع الساعات:"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:19:11.466958",
+  "name": "en-Update Task",
+  "source_text": "Update Task",
+  "translated_text": "Update Task"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:19:23.785379",
+  "name": "ar-Update Task",
+  "source_text": "Update Task",
+  "translated_text": "مهمة التحديث"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:22:09.005679",
+  "name": "en-Clear Filters",
+  "source_text": "Clear Filters",
+  "translated_text": "Clear Filters"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:22:19.056175",
+  "name": "ar-Clear Filters",
+  "source_text": "Clear Filters",
+  "translated_text": "مسح المرشحات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:24:09.482039",
+  "name": "en-Apply Filters",
+  "source_text": "Apply Filters",
+  "translated_text": "Apply Filters"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:24:22.914134",
+  "name": "ar-Apply Filters",
+  "source_text": "Apply Filters",
+  "translated_text": "تطبيق المرشحات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:27:05.158159",
+  "name": "en-Success !",
+  "source_text": "Success !",
+  "translated_text": "Success !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:27:15.476394",
+  "name": "ar-Success !",
+  "source_text": "Success !",
+  "translated_text": "نجاح !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:28:52.519289",
+  "name": "en-Info !",
+  "source_text": "Info !",
+  "translated_text": "Info !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:29:09.628991",
+  "name": "ar-Info !",
+  "source_text": "Info !",
+  "translated_text": "معلومات !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-04 09:30:45.873570",
+  "name": "en-Error !",
+  "source_text": "Error !",
+  "translated_text": "Error !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-04 09:30:56.889177",
+  "name": "ar-Error !",
+  "source_text": "Error !",
+  "translated_text": "خطأ !"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-09 09:39:45.645223",
+  "name": "en-Events",
+  "source_text": "Events",
+  "translated_text": "Events"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 09:47:11.917202",
+  "name": "ar-Events",
+  "source_text": "Events",
+  "translated_text": "الأحداث"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-09 09:47:27.628631",
+  "name": "en-Feed",
+  "source_text": "Feed",
+  "translated_text": "Feed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 09:47:40.004905",
+  "name": "ar-Feed",
+  "source_text": "Feed",
+  "translated_text": "يٌطعم"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-09 10:03:34.954563",
+  "name": "en-Filter Tasks",
+  "source_text": "Filter Tasks",
+  "translated_text": "Filter Tasks"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 10:04:01.996458",
+  "name": "ar-Filter Tasks",
+  "source_text": "Filter Tasks",
+  "translated_text": "تصفية المهام"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-09 10:09:08.777863",
+  "name": "en-Past Leaves",
+  "source_text": "Past Leaves",
+  "translated_text": "Past Leaves"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 10:09:25.441146",
+  "name": "ar-Past Leaves",
+  "source_text": "Past Leaves",
+  "translated_text": "أوراق الماضي"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-09 10:09:54.016184",
+  "name": "en-Upcoming Leaves",
+  "source_text": "Upcoming Leaves",
+  "translated_text": "Upcoming Leaves"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 10:10:08.439382",
+  "name": "ar-Upcoming Leaves",
+  "source_text": "Upcoming Leaves",
+  "translated_text": "الأوراق القادمة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-09 10:19:37.851449",
+  "name": "ar-Notifications",
+  "source_text": "Notifications",
+  "translated_text": "إشعارات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-10 15:52:42.308123",
+  "name": "en-Enable Lock Screen",
+  "source_text": "Enable Lock Screen",
+  "translated_text": "Enable Lock Screen"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-10 15:55:09.252223",
+  "name": "ar-Enable Lock Screen",
+  "source_text": "Enable Lock Screen",
+  "translated_text": "عرض على تخطيط موارد المؤسسات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-10 15:55:24.677359",
+  "name": "en-Enable Face ID",
+  "source_text": "Enable Face ID",
+  "translated_text": "Enable Face ID"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-10 16:01:33.611535",
+  "name": "ar-Enable Face ID",
+  "source_text": "Enable Face ID",
+  "translated_text": "تمكين معرف الوجه"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-10 16:03:21.813516",
+  "name": "en-Enable Fingerprint",
+  "source_text": "Enable Fingerprint",
+  "translated_text": "Enable Fingerprint"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-10 16:04:24.887886",
+  "name": "ar-Enable Fingerprint",
+  "source_text": "Enable Fingerprint",
+  "translated_text": "تمكين بصمة الإصبع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
   "modified": "2023-07-29 14:53:28.829112",
   "name": "en-Allow \"ESS\" to use your location?",
   "source_text": "Allow \"ESS\" to use your location?",
@@ -238,9 +2380,9 @@
   "doctype": "Ess Translation",
   "language": "en",
   "modified": "2023-07-29 14:53:29.082450",
-  "name": "en-You\u2019re not Check-in yet Today.",
-  "source_text": "You\u2019re not Check-in yet Today.",
-  "translated_text": "You\u2019re not Check-in yet Today."
+  "name": "en-You’re not Check-in yet Today.",
+  "source_text": "You’re not Check-in yet Today.",
+  "translated_text": "You’re not Check-in yet Today."
  },
  {
   "docstatus": 0,
@@ -1752,7 +3894,7 @@
   "modified": "2023-07-30 18:44:33.274557",
   "name": "ar-Allow \"ESS\" to use your location?",
   "source_text": "Allow \"ESS\" to use your location?",
-  "translated_text": "\u0627\u0644\u0633\u0645\u0627\u062d \u0644\u0640 \"ESS\" \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0648\u0642\u0639\u0643\u061f"
+  "translated_text": "السماح لـ \"ESS\" باستخدام موقعك؟"
  },
  {
   "docstatus": 0,
@@ -1761,7 +3903,7 @@
   "modified": "2023-07-30 18:44:33.292499",
   "name": "ar-ESS uses your location to validate their work attendance. It is validated when employees do Check-in and Check-out.",
   "source_text": "ESS uses your location to validate their work attendance. It is validated when employees do Check-in and Check-out.",
-  "translated_text": "\u064a\u0633\u062a\u062e\u062f\u0645 \"ESS\" \u0645\u0648\u0642\u0639\u0643 \u0644\u062a\u062d\u0642\u0642 \u0645\u0646 \u062d\u0636\u0648\u0631 \u0639\u0645\u0644\u0643. \u064a\u062a\u0645 \u0627\u0644\u062a\u062d\u0642\u0642 \u0639\u0646\u062f\u0645\u0627 \u064a\u0642\u0648\u0645 \u0627\u0644\u0645\u0648\u0638\u0641\u0648\u0646 \u0628\u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062f\u062e\u0648\u0644 \u0648\u0627\u0644\u062e\u0631\u0648\u062c."
+  "translated_text": "يستخدم \"ESS\" موقعك لتحقق من حضور عملك. يتم التحقق عندما يقوم الموظفون بالتسجيل الدخول والخروج."
  },
  {
   "docstatus": 0,
@@ -1770,7 +3912,7 @@
   "modified": "2023-07-30 18:44:33.300858",
   "name": "ar-Don't Allow",
   "source_text": "Don't Allow",
-  "translated_text": "\u0639\u062f\u0645 \u0627\u0644\u0633\u0645\u0627\u062d"
+  "translated_text": "عدم السماح"
  },
  {
   "docstatus": 0,
@@ -1779,7 +3921,7 @@
   "modified": "2023-07-30 18:44:33.308663",
   "name": "ar-Allow",
   "source_text": "Allow",
-  "translated_text": "\u0627\u0644\u0633\u0645\u0627\u062d"
+  "translated_text": "السماح"
  },
  {
   "docstatus": 0,
@@ -1788,7 +3930,7 @@
   "modified": "2023-07-30 18:44:33.324498",
   "name": "ar-Let's sign you in",
   "source_text": "Let's sign you in",
-  "translated_text": "\u062f\u0639\u0646\u0627 \u0646\u0642\u0648\u0645 \u0628\u062a\u0633\u062c\u064a\u0644 \u062f\u062e\u0648\u0644\u0643"
+  "translated_text": "دعنا نقوم بتسجيل دخولك"
  },
  {
   "docstatus": 0,
@@ -1797,7 +3939,7 @@
   "modified": "2023-07-30 18:44:33.336950",
   "name": "ar-Enter below details to continue..",
   "source_text": "Enter below details to continue..",
-  "translated_text": "\u0623\u062f\u062e\u0644 \u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0623\u062f\u0646\u0627\u0647 \u0644\u0644\u0645\u062a\u0627\u0628\u0639\u0629..."
+  "translated_text": "أدخل التفاصيل أدناه للمتابعة..."
  },
  {
   "docstatus": 0,
@@ -1806,7 +3948,7 @@
   "modified": "2023-07-30 18:44:33.344690",
   "name": "ar-Enter workplace url",
   "source_text": "Enter workplace url",
-  "translated_text": "\u0623\u062f\u062e\u0644 \u0631\u0627\u0628\u0637 \u0645\u0643\u0627\u0646 \u0627\u0644\u0639\u0645\u0644"
+  "translated_text": "أدخل رابط مكان العمل"
  },
  {
   "docstatus": 0,
@@ -1815,7 +3957,7 @@
   "modified": "2023-07-30 18:44:33.352628",
   "name": "ar-Username",
   "source_text": "Username",
-  "translated_text": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645"
+  "translated_text": "اسم المستخدم"
  },
  {
   "docstatus": 0,
@@ -1824,7 +3966,7 @@
   "modified": "2023-07-30 18:44:33.376643",
   "name": "ar-Password",
   "source_text": "Password",
-  "translated_text": "\u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631"
+  "translated_text": "كلمة المرور"
  },
  {
   "docstatus": 0,
@@ -1833,7 +3975,7 @@
   "modified": "2023-07-30 18:44:33.384925",
   "name": "ar-Login",
   "source_text": "Login",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062f\u062e\u0648\u0644"
+  "translated_text": "تسجيل الدخول"
  },
  {
   "docstatus": 0,
@@ -1842,7 +3984,7 @@
   "modified": "2023-07-30 18:44:33.392695",
   "name": "ar-Try Our Demo App",
   "source_text": "Try Our Demo App",
-  "translated_text": "\u062c\u0631\u0628 \u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u062f\u064a\u0645\u0648"
+  "translated_text": "جرب تطبيق الديمو"
  },
  {
   "docstatus": 0,
@@ -1851,7 +3993,7 @@
   "modified": "2023-07-30 18:44:33.400498",
   "name": "ar-Continue as Demo User",
   "source_text": "Continue as Demo User",
-  "translated_text": "\u0645\u062a\u0627\u0628\u0639\u0629 \u0643\u0645\u0633\u062a\u062e\u062f\u0645 \u062a\u062c\u0631\u064a\u0628\u064a"
+  "translated_text": "متابعة كمستخدم تجريبي"
  },
  {
   "docstatus": 0,
@@ -1860,7 +4002,7 @@
   "modified": "2023-07-30 18:44:33.408668",
   "name": "ar-Want to try out on your server ?",
   "source_text": "Want to try out on your server ?",
-  "translated_text": "\u0647\u0644 \u062a\u0631\u063a\u0628 \u0641\u064a \u0627\u0644\u062a\u062c\u0631\u0628\u0629 \u0639\u0644\u0649 \u062e\u0627\u062f\u0645\u0643 \u0627\u0644\u062e\u0627\u0635\u061f"
+  "translated_text": "هل ترغب في التجربة على خادمك الخاص؟"
  },
  {
   "docstatus": 0,
@@ -1869,7 +4011,7 @@
   "modified": "2023-07-30 18:44:33.416382",
   "name": "ar-Please Fill out below details",
   "source_text": "Please Fill out below details",
-  "translated_text": "\u064a\u0631\u062c\u0649 \u0645\u0644\u0621 \u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0623\u062f\u0646\u0627\u0647"
+  "translated_text": "يرجى ملء التفاصيل أدناه"
  },
  {
   "docstatus": 0,
@@ -1878,7 +4020,7 @@
   "modified": "2023-07-30 18:44:33.424159",
   "name": "ar-Full name",
   "source_text": "Full name",
-  "translated_text": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644"
+  "translated_text": "الاسم الكامل"
  },
  {
   "docstatus": 0,
@@ -1887,7 +4029,7 @@
   "modified": "2023-07-30 18:44:33.432012",
   "name": "ar-Email",
   "source_text": "Email",
-  "translated_text": "\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a"
+  "translated_text": "البريد الإلكتروني"
  },
  {
   "docstatus": 0,
@@ -1896,7 +4038,7 @@
   "modified": "2023-07-30 18:44:33.439885",
   "name": "ar-Search",
   "source_text": "Search",
-  "translated_text": "\u0627\u0644\u0628\u062d\u062b"
+  "translated_text": "البحث"
  },
  {
   "docstatus": 0,
@@ -1905,7 +4047,7 @@
   "modified": "2023-07-30 18:44:33.447625",
   "name": "ar-Mobile number",
   "source_text": "Mobile number",
-  "translated_text": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644"
+  "translated_text": "رقم الجوال"
  },
  {
   "docstatus": 0,
@@ -1914,7 +4056,7 @@
   "modified": "2023-07-30 18:44:33.455352",
   "name": "ar-Submit",
   "source_text": "Submit",
-  "translated_text": "\u0625\u0631\u0633\u0627\u0644"
+  "translated_text": "إرسال"
  },
  {
   "docstatus": 0,
@@ -1923,7 +4065,7 @@
   "modified": "2023-07-30 18:44:33.463277",
   "name": "ar-App Update Available",
   "source_text": "App Update Available",
-  "translated_text": "\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0645\u062a\u0627\u062d \u0627\u0644\u0623\u0646"
+  "translated_text": "تحديث التطبيق متاح الأن"
  },
  {
   "docstatus": 0,
@@ -1932,7 +4074,7 @@
   "modified": "2023-07-30 18:44:33.471136",
   "name": "ar-We have added new features and fix some bugs to make your experience seamless.",
   "source_text": "We have added new features and fix some bugs to make your experience seamless.",
-  "translated_text": "\u0644\u0642\u062f \u0642\u0645\u0646\u0627 \u0628\u0625\u0636\u0627\u0641\u0629 \u0645\u064a\u0632\u0627\u062a \u062c\u062f\u064a\u062f\u0629 \u0648\u0625\u0635\u0644\u0627\u062d \u0628\u0639\u0636 \u0627\u0644\u0623\u062e\u0637\u0627\u0621 \u0644\u062c\u0639\u0644 \u062a\u062c\u0631\u0628\u062a\u0643 \u0633\u0644\u0633\u0629."
+  "translated_text": "لقد قمنا بإضافة ميزات جديدة وإصلاح بعض الأخطاء لجعل تجربتك سلسة."
  },
  {
   "docstatus": 0,
@@ -1941,7 +4083,7 @@
   "modified": "2023-07-30 18:44:33.480358",
   "name": "ar-Update",
   "source_text": "Update",
-  "translated_text": "\u062a\u062d\u062f\u064a\u062b"
+  "translated_text": "تحديث"
  },
  {
   "docstatus": 0,
@@ -1950,7 +4092,7 @@
   "modified": "2023-07-30 18:44:33.488154",
   "name": "ar-Skip for Now",
   "source_text": "Skip for Now",
-  "translated_text": "\u062a\u062e\u0637\u064a \u0627\u0644\u0622\u0646"
+  "translated_text": "تخطي الآن"
  },
  {
   "docstatus": 0,
@@ -1959,7 +4101,7 @@
   "modified": "2023-07-30 18:44:33.495829",
   "name": "ar-Check-in",
   "source_text": "Check-in",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062d\u0636\u0648\u0631"
+  "translated_text": "تسجيل الحضور"
  },
  {
   "docstatus": 0,
@@ -1968,7 +4110,7 @@
   "modified": "2023-07-30 18:44:33.503746",
   "name": "ar-Check-out",
   "source_text": "Check-out",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0627\u0646\u0635\u0631\u0627\u0641"
+  "translated_text": "تسجيل الانصراف"
  },
  {
   "docstatus": 0,
@@ -1977,16 +4119,16 @@
   "modified": "2023-07-30 18:44:33.511440",
   "name": "ar-Retry",
   "source_text": "Retry",
-  "translated_text": "\u0625\u0639\u0627\u062f\u0629 \u0627\u0644\u0645\u062d\u0627\u0648\u0644\u0629"
+  "translated_text": "إعادة المحاولة"
  },
  {
   "docstatus": 0,
   "doctype": "Ess Translation",
   "language": "ar",
   "modified": "2023-07-30 18:44:33.519136",
-  "name": "ar-You\u2019re not Check-in yet Today.",
-  "source_text": "You\u2019re not Check-in yet Today.",
-  "translated_text": "\u0644\u0645 \u062a\u0633\u062c\u0644 \u062d\u0636\u0648\u0631\u0643 \u0627\u0644\u064a\u0648\u0645 \u0628\u0639\u062f ."
+  "name": "ar-You’re not Check-in yet Today.",
+  "source_text": "You’re not Check-in yet Today.",
+  "translated_text": "لم تسجل حضورك اليوم بعد ."
  },
  {
   "docstatus": 0,
@@ -1995,7 +4137,7 @@
   "modified": "2023-07-30 18:44:33.527112",
   "name": "ar-You started your day at.",
   "source_text": "You started your day at.",
-  "translated_text": "\u0628\u062f\u0623\u062a \u064a\u0648\u0645\u0643 \u0641\u064a."
+  "translated_text": "بدأت يومك في."
  },
  {
   "docstatus": 0,
@@ -2004,7 +4146,7 @@
   "modified": "2023-07-30 18:44:33.534859",
   "name": "ar-Subscription expired.",
   "source_text": "Subscription expired.",
-  "translated_text": "\u0627\u0646\u062a\u0647\u062a \u0635\u0644\u0627\u062d\u064a\u0629 \u0627\u0644\u0627\u0634\u062a\u0631\u0627\u0643."
+  "translated_text": "انتهت صلاحية الاشتراك."
  },
  {
   "docstatus": 0,
@@ -2013,7 +4155,7 @@
   "modified": "2023-07-30 18:44:33.543313",
   "name": "ar-Good Morning,",
   "source_text": "Good Morning,",
-  "translated_text": "\u0635\u0628\u0627\u062d \u0627\u0644\u062e\u064a\u0631\u060c"
+  "translated_text": "صباح الخير،"
  },
  {
   "docstatus": 0,
@@ -2022,7 +4164,7 @@
   "modified": "2023-07-30 18:44:33.550986",
   "name": "ar-Good Afternoon,",
   "source_text": "Good Afternoon,",
-  "translated_text": "\u0645\u0633\u0627\u0621 \u0627\u0644\u062e\u064a\u0631\u060c"
+  "translated_text": "مساء الخير،"
  },
  {
   "docstatus": 0,
@@ -2031,7 +4173,7 @@
   "modified": "2023-07-30 18:44:33.558642",
   "name": "ar-Good Evening,",
   "source_text": "Good Evening,",
-  "translated_text": "\u0645\u0633\u0627\u0621 \u0627\u0644\u062e\u064a\u0631\u060c"
+  "translated_text": "مساء الخير،"
  },
  {
   "docstatus": 0,
@@ -2040,7 +4182,7 @@
   "modified": "2023-07-30 18:44:33.566418",
   "name": "ar-Visit",
   "source_text": "Visit",
-  "translated_text": "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a"
+  "translated_text": "الزيارات"
  },
  {
   "docstatus": 0,
@@ -2049,7 +4191,7 @@
   "modified": "2023-07-30 18:44:33.574128",
   "name": "ar-Orders",
   "source_text": "Orders",
-  "translated_text": "\u0627\u0644\u0637\u0644\u0628\u0627\u062a"
+  "translated_text": "الطلبات"
  },
  {
   "docstatus": 0,
@@ -2058,7 +4200,7 @@
   "modified": "2023-07-30 18:44:33.581755",
   "name": "ar-Transactions",
   "source_text": "Transactions",
-  "translated_text": "\u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0627\u062a"
+  "translated_text": "المعاملات"
  },
  {
   "docstatus": 0,
@@ -2067,7 +4209,7 @@
   "modified": "2023-07-30 18:44:33.589510",
   "name": "ar-Attendance",
   "source_text": "Attendance",
-  "translated_text": "\u0627\u0644\u062d\u0636\u0648\u0631"
+  "translated_text": "الحضور"
  },
  {
   "docstatus": 0,
@@ -2076,7 +4218,7 @@
   "modified": "2023-07-30 18:44:33.599864",
   "name": "ar-Holiday",
   "source_text": "Holiday",
-  "translated_text": "\u0627\u0644\u0639\u0637\u0644\u0627\u062a"
+  "translated_text": "العطلات"
  },
  {
   "docstatus": 0,
@@ -2085,7 +4227,7 @@
   "modified": "2023-07-30 18:44:33.607641",
   "name": "ar-Document",
   "source_text": "Document",
-  "translated_text": "\u0627\u0644\u0645\u0633\u062a\u0646\u062f\u0627\u062a"
+  "translated_text": "المستندات"
  },
  {
   "docstatus": 0,
@@ -2094,7 +4236,7 @@
   "modified": "2023-07-30 18:44:33.615312",
   "name": "ar-Payroll",
   "source_text": "Payroll",
-  "translated_text": "\u0643\u0634\u0641 \u0627\u0644\u0631\u0648\u0627\u062a\u0628"
+  "translated_text": "كشف الرواتب"
  },
  {
   "docstatus": 0,
@@ -2103,7 +4245,7 @@
   "modified": "2023-07-30 18:44:33.623018",
   "name": "ar-Leave",
   "source_text": "Leave",
-  "translated_text": "\u0627\u0644\u0625\u062c\u0627\u0632\u0627\u062a"
+  "translated_text": "الإجازات"
  },
  {
   "docstatus": 0,
@@ -2112,7 +4254,7 @@
   "modified": "2023-07-30 18:44:33.630893",
   "name": "ar-Expense",
   "source_text": "Expense",
-  "translated_text": "\u0627\u0644\u0645\u0635\u0631\u0648\u0641\u0627\u062a"
+  "translated_text": "المصروفات"
  },
  {
   "docstatus": 0,
@@ -2121,7 +4263,7 @@
   "modified": "2023-07-30 18:44:33.638563",
   "name": "ar-Present",
   "source_text": "Present",
-  "translated_text": "\u062d\u0636\u0648\u0631"
+  "translated_text": "حضور"
  },
  {
   "docstatus": 0,
@@ -2130,7 +4272,7 @@
   "modified": "2023-07-30 18:44:33.646187",
   "name": "ar-Absent",
   "source_text": "Absent",
-  "translated_text": "\u063a\u064a\u0627\u0628"
+  "translated_text": "غياب"
  },
  {
   "docstatus": 0,
@@ -2139,7 +4281,7 @@
   "modified": "2023-07-30 18:44:33.653822",
   "name": "ar-Day off",
   "source_text": "Day off",
-  "translated_text": "\u064a\u0648\u0645 \u0639\u0637\u0644\u0647"
+  "translated_text": "يوم عطله"
  },
  {
   "docstatus": 0,
@@ -2148,7 +4290,7 @@
   "modified": "2023-07-30 18:44:33.661623",
   "name": "ar-Days",
   "source_text": "Days",
-  "translated_text": "\u0623\u064a\u0627\u0645"
+  "translated_text": "أيام"
  },
  {
   "docstatus": 0,
@@ -2157,7 +4299,7 @@
   "modified": "2023-07-30 18:44:33.669315",
   "name": "ar-N/A",
   "source_text": "N/A",
-  "translated_text": "\u063a\u064a\u0631 \u0645\u062a\u0627\u062d"
+  "translated_text": "غير متاح"
  },
  {
   "docstatus": 0,
@@ -2166,7 +4308,7 @@
   "modified": "2023-07-30 18:44:33.677037",
   "name": "ar-Allotted",
   "source_text": "Allotted",
-  "translated_text": "\u062a\u0645 \u0627\u0644\u062a\u062e\u0635\u064a\u0635"
+  "translated_text": "تم التخصيص"
  },
  {
   "docstatus": 0,
@@ -2175,7 +4317,7 @@
   "modified": "2023-07-30 18:44:33.685235",
   "name": "ar-View Salary Slip",
   "source_text": "View Salary Slip",
-  "translated_text": "\u0639\u0631\u0636 \u0643\u0634\u0641 \u0627\u0644\u0631\u0627\u062a\u0628"
+  "translated_text": "عرض كشف الراتب"
  },
  {
   "docstatus": 0,
@@ -2184,7 +4326,7 @@
   "modified": "2023-07-30 18:44:33.693032",
   "name": "ar-Work day",
   "source_text": "Work day",
-  "translated_text": "\u064a\u0648\u0645 \u0639\u0645\u0644"
+  "translated_text": "يوم عمل"
  },
  {
   "docstatus": 0,
@@ -2193,7 +4335,7 @@
   "modified": "2023-07-30 18:44:33.700766",
   "name": "ar-Credited on",
   "source_text": "Credited on",
-  "translated_text": "\u062a\u0645 \u0627\u0644\u0627\u062d\u062a\u0633\u0627\u0628 \u0641\u064a"
+  "translated_text": "تم الاحتساب في"
  },
  {
   "docstatus": 0,
@@ -2202,7 +4344,7 @@
   "modified": "2023-07-30 18:44:33.708376",
   "name": "ar-Salary Details",
   "source_text": "Salary Details",
-  "translated_text": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0631\u0627\u062a\u0628"
+  "translated_text": "تفاصيل الراتب"
  },
  {
   "docstatus": 0,
@@ -2211,7 +4353,7 @@
   "modified": "2023-07-30 18:44:33.716049",
   "name": "ar-Leave Balance",
   "source_text": "Leave Balance",
-  "translated_text": "\u0631\u0635\u064a\u062f \u0627\u0644\u0625\u062c\u0627\u0632\u0627\u062a"
+  "translated_text": "رصيد الإجازات"
  },
  {
   "docstatus": 0,
@@ -2220,7 +4362,7 @@
   "modified": "2023-07-30 18:44:33.723850",
   "name": "ar-Attendance Details",
   "source_text": "Attendance Details",
-  "translated_text": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u062d\u0636\u0648\u0631"
+  "translated_text": "تفاصيل الحضور"
  },
  {
   "docstatus": 0,
@@ -2229,7 +4371,7 @@
   "modified": "2023-07-30 18:44:33.731540",
   "name": "ar-Pending requests",
   "source_text": "Pending requests",
-  "translated_text": "\u0627\u0644\u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0645\u0639\u0644\u0642\u0629"
+  "translated_text": "الطلبات المعلقة"
  },
  {
   "docstatus": 0,
@@ -2238,7 +4380,7 @@
   "modified": "2023-07-30 18:44:33.739202",
   "name": "ar-What would you like to do?",
   "source_text": "What would you like to do?",
-  "translated_text": "\u0645\u0627 \u0627\u0644\u0630\u064a \u062a\u0631\u063a\u0628 \u0641\u064a \u0627\u0644\u0642\u064a\u0627\u0645 \u0628\u0647\u061f"
+  "translated_text": "ما الذي ترغب في القيام به؟"
  },
  {
   "docstatus": 0,
@@ -2247,7 +4389,7 @@
   "modified": "2023-07-30 18:44:33.746833",
   "name": "ar-Your Task",
   "source_text": "Your Task",
-  "translated_text": "\u0645\u0647\u0645\u062a\u0643"
+  "translated_text": "مهمتك"
  },
  {
   "docstatus": 0,
@@ -2256,7 +4398,7 @@
   "modified": "2023-07-30 18:44:33.754504",
   "name": "ar-Messages",
   "source_text": "Messages",
-  "translated_text": "\u0627\u0644\u0631\u0633\u0627\u0626\u0644"
+  "translated_text": "الرسائل"
  },
  {
   "docstatus": 0,
@@ -2265,7 +4407,7 @@
   "modified": "2023-07-30 18:44:33.762206",
   "name": "ar-Anonymus",
   "source_text": "Anonymus",
-  "translated_text": "\u0645\u062c\u0647\u0648\u0644"
+  "translated_text": "مجهول"
  },
  {
   "docstatus": 0,
@@ -2274,7 +4416,7 @@
   "modified": "2023-07-30 18:44:33.769812",
   "name": "ar-Comment here...",
   "source_text": "Comment here...",
-  "translated_text": "\u0623\u0636\u0641 \u062a\u0639\u0644\u064a\u0642\u064b\u0627 \u0647\u0646\u0627..."
+  "translated_text": "أضف تعليقًا هنا..."
  },
  {
   "docstatus": 0,
@@ -2283,7 +4425,7 @@
   "modified": "2023-07-30 18:44:33.777492",
   "name": "ar-Today",
   "source_text": "Today",
-  "translated_text": "\u0627\u0644\u064a\u0648\u0645"
+  "translated_text": "اليوم"
  },
  {
   "docstatus": 0,
@@ -2292,7 +4434,7 @@
   "modified": "2023-07-30 18:44:33.785294",
   "name": "ar-Yesterday",
   "source_text": "Yesterday",
-  "translated_text": "\u0623\u0645\u0633"
+  "translated_text": "أمس"
  },
  {
   "docstatus": 0,
@@ -2301,7 +4443,7 @@
   "modified": "2023-07-30 18:44:33.792937",
   "name": "ar-Select contact",
   "source_text": "Select contact",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u062c\u0647\u0629 \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+  "translated_text": "اختر جهة الاتصال"
  },
  {
   "docstatus": 0,
@@ -2310,7 +4452,7 @@
   "modified": "2023-07-30 18:44:33.800580",
   "name": "ar-Contacts",
   "source_text": "Contacts",
-  "translated_text": "\u062c\u0647\u0627\u062a \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+  "translated_text": "جهات الاتصال"
  },
  {
   "docstatus": 0,
@@ -2319,7 +4461,7 @@
   "modified": "2023-07-30 18:44:33.808339",
   "name": "ar-Apply Expense",
   "source_text": "Apply Expense",
-  "translated_text": "\u062a\u0642\u062f\u064a\u0645 \u0641\u0627\u062a\u0648\u0631\u0629 \u0645\u0635\u0631\u0648\u0641\u0627\u062a"
+  "translated_text": "تقديم فاتورة مصروفات"
  },
  {
   "docstatus": 0,
@@ -2328,7 +4470,7 @@
   "modified": "2023-07-30 18:44:33.816133",
   "name": "ar-Apply Leave",
   "source_text": "Apply Leave",
-  "translated_text": "\u062a\u0642\u062f\u064a\u0645 \u0625\u062c\u0627\u0632\u0629"
+  "translated_text": "تقديم إجازة"
  },
  {
   "docstatus": 0,
@@ -2337,7 +4479,7 @@
   "modified": "2023-07-30 18:44:33.823751",
   "name": "ar-Create Visit",
   "source_text": "Create Visit",
-  "translated_text": "\u0625\u0646\u0634\u0627\u0621 \u0632\u064a\u0627\u0631\u0629"
+  "translated_text": "إنشاء زيارة"
  },
  {
   "docstatus": 0,
@@ -2346,7 +4488,7 @@
   "modified": "2023-07-30 18:44:33.831376",
   "name": "ar-Create Task",
   "source_text": "Create Task",
-  "translated_text": "\u0625\u0646\u0634\u0627\u0621 \u0645\u0647\u0645\u0629"
+  "translated_text": "إنشاء مهمة"
  },
  {
   "docstatus": 0,
@@ -2355,7 +4497,7 @@
   "modified": "2023-07-30 18:44:33.839004",
   "name": "ar-Upcoming Activity",
   "source_text": "Upcoming Activity",
-  "translated_text": "\u0627\u0644\u0646\u0634\u0627\u0637 \u0627\u0644\u0642\u0627\u062f\u0645"
+  "translated_text": "النشاط القادم"
  },
  {
   "docstatus": 0,
@@ -2364,7 +4506,7 @@
   "modified": "2023-07-30 18:44:33.847285",
   "name": "ar-My Profile",
   "source_text": "My Profile",
-  "translated_text": "\u0645\u0644\u0641\u064a \u0627\u0644\u0634\u062e\u0635\u064a"
+  "translated_text": "ملفي الشخصي"
  },
  {
   "docstatus": 0,
@@ -2373,7 +4515,7 @@
   "modified": "2023-07-30 18:44:33.854894",
   "name": "ar-Employee ID",
   "source_text": "Employee ID",
-  "translated_text": "\u0645\u0639\u0631\u0651\u0641 \u0627\u0644\u0645\u0648\u0638\u0641"
+  "translated_text": "معرّف الموظف"
  },
  {
   "docstatus": 0,
@@ -2382,7 +4524,7 @@
   "modified": "2023-07-30 18:44:33.862539",
   "name": "ar-Date of Joining",
   "source_text": "Date of Joining",
-  "translated_text": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645"
+  "translated_text": "تاريخ الانضمام"
  },
  {
   "docstatus": 0,
@@ -2391,7 +4533,7 @@
   "modified": "2023-07-30 18:44:33.870259",
   "name": "ar-Date of Birth",
   "source_text": "Date of Birth",
-  "translated_text": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u064a\u0644\u0627\u062f"
+  "translated_text": "تاريخ الميلاد"
  },
  {
   "docstatus": 0,
@@ -2400,7 +4542,7 @@
   "modified": "2023-07-30 18:44:33.878093",
   "name": "ar-Gender",
   "source_text": "Gender",
-  "translated_text": "\u0627\u0644\u062c\u0646\u0633"
+  "translated_text": "الجنس"
  },
  {
   "docstatus": 0,
@@ -2409,7 +4551,7 @@
   "modified": "2023-07-30 18:44:33.885791",
   "name": "ar-Official email address",
   "source_text": "Official email address",
-  "translated_text": "\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0627\u0644\u0631\u0633\u0645\u064a"
+  "translated_text": "البريد الإلكتروني الرسمي"
  },
  {
   "docstatus": 0,
@@ -2418,7 +4560,7 @@
   "modified": "2023-07-30 18:44:33.893342",
   "name": "ar-Personal email address",
   "source_text": "Personal email address",
-  "translated_text": "\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0627\u0644\u0634\u062e\u0635\u064a"
+  "translated_text": "البريد الإلكتروني الشخصي"
  },
  {
   "docstatus": 0,
@@ -2427,7 +4569,7 @@
   "modified": "2023-07-30 18:44:33.901011",
   "name": "ar-Contact number",
   "source_text": "Contact number",
-  "translated_text": "\u0631\u0642\u0645 \u0627\u0644\u0627\u062a\u0635\u0627\u0644"
+  "translated_text": "رقم الاتصال"
  },
  {
   "docstatus": 0,
@@ -2436,7 +4578,7 @@
   "modified": "2023-07-30 18:44:33.908733",
   "name": "ar-emergency contact number",
   "source_text": "emergency contact number",
-  "translated_text": "\u0631\u0642\u0645 \u0627\u0644\u0627\u062a\u0635\u0627\u0644 \u0644\u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0637\u0648\u0627\u0631\u0626"
+  "translated_text": "رقم الاتصال لحالات الطوارئ"
  },
  {
   "docstatus": 0,
@@ -2445,7 +4587,7 @@
   "modified": "2023-07-30 18:44:33.916552",
   "name": "ar-do you really want to log out ?",
   "source_text": "do you really want to log out ?",
-  "translated_text": "\u0647\u0644 \u062a\u0631\u063a\u0628 \u062d\u0642\u064b\u0627 \u0641\u064a \u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062e\u0631\u0648\u062c\u061f"
+  "translated_text": "هل ترغب حقًا في تسجيل الخروج؟"
  },
  {
   "docstatus": 0,
@@ -2454,7 +4596,7 @@
   "modified": "2023-07-30 18:44:33.924203",
   "name": "ar-Logout",
   "source_text": "Logout",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062e\u0631\u0648\u062c"
+  "translated_text": "تسجيل الخروج"
  },
  {
   "docstatus": 0,
@@ -2463,7 +4605,7 @@
   "modified": "2023-07-30 18:44:33.931888",
   "name": "ar-Change Password",
   "source_text": "Change Password",
-  "translated_text": "\u062a\u063a\u064a\u064a\u0631 \u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631"
+  "translated_text": "تغيير كلمة المرور"
  },
  {
   "docstatus": 0,
@@ -2472,7 +4614,7 @@
   "modified": "2023-07-30 18:44:33.939894",
   "name": "ar-Current Password",
   "source_text": "Current Password",
-  "translated_text": "\u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631 \u0627\u0644\u062d\u0627\u0644\u064a\u0629"
+  "translated_text": "كلمة المرور الحالية"
  },
  {
   "docstatus": 0,
@@ -2481,7 +4623,7 @@
   "modified": "2023-07-30 18:44:33.947511",
   "name": "ar-New Password",
   "source_text": "New Password",
-  "translated_text": "\u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631 \u0627\u0644\u062c\u062f\u064a\u062f\u0629"
+  "translated_text": "كلمة المرور الجديدة"
  },
  {
   "docstatus": 0,
@@ -2490,7 +4632,7 @@
   "modified": "2023-07-30 18:44:33.955102",
   "name": "ar-All Tasks",
   "source_text": "All Tasks",
-  "translated_text": "\u062c\u0645\u064a\u0639 \u0627\u0644\u0645\u0647\u0627\u0645"
+  "translated_text": "جميع المهام"
  },
  {
   "docstatus": 0,
@@ -2499,7 +4641,7 @@
   "modified": "2023-07-30 18:44:33.962644",
   "name": "ar-My Tasks",
   "source_text": "My Tasks",
-  "translated_text": "\u0645\u0647\u0627\u0645\u064a"
+  "translated_text": "مهامي"
  },
  {
   "docstatus": 0,
@@ -2508,7 +4650,7 @@
   "modified": "2023-07-30 18:44:33.970348",
   "name": "ar-Completed Tasks",
   "source_text": "Completed Tasks",
-  "translated_text": "\u0627\u0644\u0645\u0647\u0627\u0645 \u0627\u0644\u0645\u0643\u062a\u0645\u0644\u0629"
+  "translated_text": "المهام المكتملة"
  },
  {
   "docstatus": 0,
@@ -2517,7 +4659,7 @@
   "modified": "2023-07-30 18:44:33.978048",
   "name": "ar-Update Progress",
   "source_text": "Update Progress",
-  "translated_text": "\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u062a\u0642\u062f\u0645"
+  "translated_text": "تحديث التقدم"
  },
  {
   "docstatus": 0,
@@ -2526,7 +4668,7 @@
   "modified": "2023-07-30 18:44:33.985766",
   "name": "ar-Done",
   "source_text": "Done",
-  "translated_text": "\u062a\u0645"
+  "translated_text": "تم"
  },
  {
   "docstatus": 0,
@@ -2535,7 +4677,7 @@
   "modified": "2023-07-30 18:44:33.993333",
   "name": "ar-Pending",
   "source_text": "Pending",
-  "translated_text": "\u0642\u064a\u062f \u0627\u0644\u0627\u0646\u062a\u0638\u0627\u0631"
+  "translated_text": "قيد الانتظار"
  },
  {
   "docstatus": 0,
@@ -2544,7 +4686,7 @@
   "modified": "2023-07-30 18:44:34.001215",
   "name": "ar-Working",
   "source_text": "Working",
-  "translated_text": "\u0642\u064a\u062f \u0627\u0644\u0639\u0645\u0644"
+  "translated_text": "قيد العمل"
  },
  {
   "docstatus": 0,
@@ -2553,7 +4695,7 @@
   "modified": "2023-07-30 18:44:34.008904",
   "name": "ar-Completed",
   "source_text": "Completed",
-  "translated_text": "\u0645\u0643\u062a\u0645\u0644\u0629"
+  "translated_text": "مكتملة"
  },
  {
   "docstatus": 0,
@@ -2562,7 +4704,7 @@
   "modified": "2023-07-30 18:44:34.016485",
   "name": "ar-Due Date",
   "source_text": "Due Date",
-  "translated_text": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0633\u062a\u062d\u0642\u0627\u0642"
+  "translated_text": "تاريخ الاستحقاق"
  },
  {
   "docstatus": 0,
@@ -2571,7 +4713,7 @@
   "modified": "2023-07-30 18:44:34.024123",
   "name": "ar-Description",
   "source_text": "Description",
-  "translated_text": "\u0627\u0644\u0648\u0635\u0641"
+  "translated_text": "الوصف"
  },
  {
   "docstatus": 0,
@@ -2580,7 +4722,7 @@
   "modified": "2023-07-30 18:44:34.032068",
   "name": "ar-Assigned to",
   "source_text": "Assigned to",
-  "translated_text": "\u062a\u0639\u064a\u064a\u0646 \u0644"
+  "translated_text": "تعيين ل"
  },
  {
   "docstatus": 0,
@@ -2589,7 +4731,7 @@
   "modified": "2023-07-30 18:44:34.039645",
   "name": "ar-Assigned by",
   "source_text": "Assigned by",
-  "translated_text": "\u062a\u0639\u064a\u064a\u0646 \u0628\u0648\u0627\u0633\u0637\u0629"
+  "translated_text": "تعيين بواسطة"
  },
  {
   "docstatus": 0,
@@ -2598,7 +4740,7 @@
   "modified": "2023-07-30 18:44:34.047414",
   "name": "ar-Mark as completed",
   "source_text": "Mark as completed",
-  "translated_text": "\u0648\u0636\u0639 \u0639\u0644\u0627\u0645\u0629 \u0643\u0645\u0643\u062a\u0645\u0644"
+  "translated_text": "وضع علامة كمكتمل"
  },
  {
   "docstatus": 0,
@@ -2607,7 +4749,7 @@
   "modified": "2023-07-30 18:44:34.055062",
   "name": "ar-Mark as in progress",
   "source_text": "Mark as in progress",
-  "translated_text": "\u0648\u0636\u0639 \u0639\u0644\u0627\u0645\u0629 \u0643\u0642\u064a\u062f \u0627\u0644\u062a\u0646\u0641\u064a\u0630"
+  "translated_text": "وضع علامة كقيد التنفيذ"
  },
  {
   "docstatus": 0,
@@ -2616,7 +4758,7 @@
   "modified": "2023-07-30 18:44:34.062816",
   "name": "ar-Activity",
   "source_text": "Activity",
-  "translated_text": "\u0627\u0644\u0646\u0634\u0627\u0637"
+  "translated_text": "النشاط"
  },
  {
   "docstatus": 0,
@@ -2625,7 +4767,7 @@
   "modified": "2023-07-30 18:44:34.075991",
   "name": "ar-Send",
   "source_text": "Send",
-  "translated_text": "\u0625\u0631\u0633\u0627\u0644"
+  "translated_text": "إرسال"
  },
  {
   "docstatus": 0,
@@ -2634,7 +4776,7 @@
   "modified": "2023-07-30 18:44:34.083759",
   "name": "ar-Create New Task",
   "source_text": "Create New Task",
-  "translated_text": "\u0625\u0646\u0634\u0627\u0621 \u0645\u0647\u0645\u0629 \u062c\u062f\u064a\u062f\u0629"
+  "translated_text": "إنشاء مهمة جديدة"
  },
  {
   "docstatus": 0,
@@ -2643,7 +4785,7 @@
   "modified": "2023-07-30 18:44:34.093157",
   "name": "ar-Optional",
   "source_text": "Optional",
-  "translated_text": "\u0627\u062e\u062a\u0631\u064a"
+  "translated_text": "اختري"
  },
  {
   "docstatus": 0,
@@ -2652,7 +4794,7 @@
   "modified": "2023-07-30 18:44:34.101028",
   "name": "ar-Select Project",
   "source_text": "Select Project",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0645\u0634\u0631\u0648\u0639\u064b\u0627"
+  "translated_text": "اختر مشروعًا"
  },
  {
   "docstatus": 0,
@@ -2661,7 +4803,7 @@
   "modified": "2023-07-30 18:44:34.108655",
   "name": "ar-Subject",
   "source_text": "Subject",
-  "translated_text": "\u0627\u0644\u0645\u0648\u0636\u0648\u0639"
+  "translated_text": "الموضوع"
  },
  {
   "docstatus": 0,
@@ -2670,7 +4812,7 @@
   "modified": "2023-07-30 18:44:34.120253",
   "name": "ar-Assign To",
   "source_text": "Assign To",
-  "translated_text": "\u062a\u0639\u064a\u064a\u0646 \u0644\u0640"
+  "translated_text": "تعيين لـ"
  },
  {
   "docstatus": 0,
@@ -2679,7 +4821,7 @@
   "modified": "2023-07-30 18:44:34.127920",
   "name": "ar-Select Assign To",
   "source_text": "Select Assign To",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u0645\u0648\u0638\u0641"
+  "translated_text": "اختر الموظف"
  },
  {
   "docstatus": 0,
@@ -2688,7 +4830,7 @@
   "modified": "2023-07-30 18:44:34.135675",
   "name": "ar-Priority",
   "source_text": "Priority",
-  "translated_text": "\u0627\u0644\u0623\u0648\u0644\u0648\u064a\u0629"
+  "translated_text": "الأولوية"
  },
  {
   "docstatus": 0,
@@ -2697,7 +4839,7 @@
   "modified": "2023-07-30 18:44:34.147134",
   "name": "ar-Status",
   "source_text": "Status",
-  "translated_text": "\u0627\u0644\u062d\u0627\u0644\u0629"
+  "translated_text": "الحالة"
  },
  {
   "docstatus": 0,
@@ -2706,7 +4848,7 @@
   "modified": "2023-07-30 18:44:34.154782",
   "name": "ar-Cancel",
   "source_text": "Cancel",
-  "translated_text": "\u0625\u0644\u063a\u0627\u0621"
+  "translated_text": "إلغاء"
  },
  {
   "docstatus": 0,
@@ -2715,7 +4857,7 @@
   "modified": "2023-07-30 18:44:34.162361",
   "name": "ar-Create",
   "source_text": "Create",
-  "translated_text": "\u0625\u0646\u0634\u0627\u0621"
+  "translated_text": "إنشاء"
  },
  {
   "docstatus": 0,
@@ -2724,7 +4866,7 @@
   "modified": "2023-07-30 18:44:34.173952",
   "name": "ar-Check In",
   "source_text": "Check In",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062d\u0636\u0648\u0631"
+  "translated_text": "تسجيل الحضور"
  },
  {
   "docstatus": 0,
@@ -2733,7 +4875,7 @@
   "modified": "2023-07-30 18:44:34.181639",
   "name": "ar-Check Out",
   "source_text": "Check Out",
-  "translated_text": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0627\u0646\u0635\u0631\u0627\u0641"
+  "translated_text": "تسجيل الانصراف"
  },
  {
   "docstatus": 0,
@@ -2742,7 +4884,7 @@
   "modified": "2023-07-30 18:44:34.189662",
   "name": "ar-Work Duration",
   "source_text": "Work Duration",
-  "translated_text": "\u0645\u062f\u0629 \u0627\u0644\u0639\u0645\u0644"
+  "translated_text": "مدة العمل"
  },
  {
   "docstatus": 0,
@@ -2751,7 +4893,7 @@
   "modified": "2023-07-30 18:44:34.197238",
   "name": "ar-Total Days",
   "source_text": "Total Days",
-  "translated_text": "\u0645\u062c\u0645\u0648\u0639 \u0627\u0644\u0623\u064a\u0627\u0645"
+  "translated_text": "مجموع الأيام"
  },
  {
   "docstatus": 0,
@@ -2760,7 +4902,7 @@
   "modified": "2023-07-30 18:44:34.205033",
   "name": "ar-On Time",
   "source_text": "On Time",
-  "translated_text": "\u0641\u064a \u0627\u0644\u0648\u0642\u062a \u0627\u0644\u0645\u062d\u062f\u062f"
+  "translated_text": "في الوقت المحدد"
  },
  {
   "docstatus": 0,
@@ -2769,7 +4911,7 @@
   "modified": "2023-07-30 18:44:34.212960",
   "name": "ar-Late",
   "source_text": "Late",
-  "translated_text": "\u0645\u062a\u0623\u062e\u0631"
+  "translated_text": "متأخر"
  },
  {
   "docstatus": 0,
@@ -2778,7 +4920,7 @@
   "modified": "2023-07-30 18:44:34.224493",
   "name": "ar-Documents",
   "source_text": "Documents",
-  "translated_text": "\u0627\u0644\u0645\u0633\u062a\u0646\u062f\u0627\u062a"
+  "translated_text": "المستندات"
  },
  {
   "docstatus": 0,
@@ -2787,7 +4929,7 @@
   "modified": "2023-07-30 18:44:34.232205",
   "name": "ar-Upload Document",
   "source_text": "Upload Document",
-  "translated_text": "\u062a\u062d\u0645\u064a\u0644 \u0645\u0633\u062a\u0646\u062f"
+  "translated_text": "تحميل مستند"
  },
  {
   "docstatus": 0,
@@ -2796,7 +4938,7 @@
   "modified": "2023-07-30 18:44:34.240011",
   "name": "ar-Download",
   "source_text": "Download",
-  "translated_text": "\u062a\u062d\u0645\u064a\u0644"
+  "translated_text": "تحميل"
  },
  {
   "docstatus": 0,
@@ -2805,7 +4947,7 @@
   "modified": "2023-07-30 18:44:34.247512",
   "name": "ar-Delete",
   "source_text": "Delete",
-  "translated_text": "\u062d\u0630\u0641"
+  "translated_text": "حذف"
  },
  {
   "docstatus": 0,
@@ -2814,7 +4956,7 @@
   "modified": "2023-07-30 18:44:34.255154",
   "name": "ar-Download Completed. Click to open",
   "source_text": "Download Completed. Click to open",
-  "translated_text": "\u062a\u0645 \u0627\u0644\u062a\u062d\u0645\u064a\u0644. \u0627\u0646\u0642\u0631 \u0644\u0644\u0641\u062a\u062d"
+  "translated_text": "تم التحميل. انقر للفتح"
  },
  {
   "docstatus": 0,
@@ -2823,7 +4965,7 @@
   "modified": "2023-07-30 18:44:34.262832",
   "name": "ar-File already downloaded.",
   "source_text": "File already downloaded.",
-  "translated_text": "\u062a\u0645 \u062a\u062d\u0645\u064a\u0644 \u0627\u0644\u0645\u0644\u0641 \u0628\u0627\u0644\u0641\u0639\u0644."
+  "translated_text": "تم تحميل الملف بالفعل."
  },
  {
   "docstatus": 0,
@@ -2832,7 +4974,7 @@
   "modified": "2023-07-30 18:44:34.270567",
   "name": "ar-My Expenses",
   "source_text": "My Expenses",
-  "translated_text": "\u0645\u0635\u0631\u0648\u0641\u0627\u062a\u064a"
+  "translated_text": "مصروفاتي"
  },
  {
   "docstatus": 0,
@@ -2841,7 +4983,7 @@
   "modified": "2023-07-30 18:44:34.282067",
   "name": "ar-Expense History",
   "source_text": "Expense History ",
-  "translated_text": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u0635\u0631\u0648\u0641\u0627\u062a"
+  "translated_text": "تاريخ المصروفات"
  },
  {
   "docstatus": 0,
@@ -2850,7 +4992,7 @@
   "modified": "2023-07-30 18:44:34.293776",
   "name": "ar-Apply",
   "source_text": "Apply",
-  "translated_text": "\u062a\u0642\u062f\u064a\u0645"
+  "translated_text": "تقديم"
  },
  {
   "docstatus": 0,
@@ -2859,7 +5001,7 @@
   "modified": "2023-07-30 18:44:34.301461",
   "name": "ar-Select day",
   "source_text": "Select day",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u064a\u0648\u0645"
+  "translated_text": "اختر اليوم"
  },
  {
   "docstatus": 0,
@@ -2868,7 +5010,7 @@
   "modified": "2023-07-30 18:44:34.309015",
   "name": "ar-Select expense type",
   "source_text": "Select expense type",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0646\u0648\u0639 \u0627\u0644\u0645\u0635\u0631\u0648\u0641"
+  "translated_text": "اختر نوع المصروف"
  },
  {
   "docstatus": 0,
@@ -2877,7 +5019,7 @@
   "modified": "2023-07-30 18:44:34.321454",
   "name": "ar-Type reason here...",
   "source_text": "Type reason here...",
-  "translated_text": "\u0627\u0643\u062a\u0628 \u0627\u0644\u0633\u0628\u0628 \u0647\u0646\u0627..."
+  "translated_text": "اكتب السبب هنا..."
  },
  {
   "docstatus": 0,
@@ -2886,7 +5028,7 @@
   "modified": "2023-07-30 18:44:34.348518",
   "name": "ar-Type amount",
   "source_text": "Type amount",
-  "translated_text": "\u0627\u0643\u062a\u0628 \u0627\u0644\u0645\u0628\u0644\u063a"
+  "translated_text": "اكتب المبلغ"
  },
  {
   "docstatus": 0,
@@ -2895,7 +5037,7 @@
   "modified": "2023-07-30 18:44:34.368907",
   "name": "ar-Upload Expense Bill",
   "source_text": "Upload Expense Bill",
-  "translated_text": "\u0625\u0631\u0641\u0627\u0642 \u0641\u0627\u062a\u0648\u0631\u0629 \u0627\u0644\u0645\u0635\u0631\u0648\u0641\u0627\u062a"
+  "translated_text": "إرفاق فاتورة المصروفات"
  },
  {
   "docstatus": 0,
@@ -2904,7 +5046,7 @@
   "modified": "2023-07-30 18:44:34.416581",
   "name": "ar-Holiday List",
   "source_text": "Holiday List",
-  "translated_text": "\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0639\u0637\u0644\u0627\u062a"
+  "translated_text": "قائمة العطلات"
  },
  {
   "docstatus": 0,
@@ -2913,7 +5055,7 @@
   "modified": "2023-07-30 18:44:34.441291",
   "name": "ar-Select Year",
   "source_text": "Select Year",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u0639\u0627\u0645"
+  "translated_text": "اختر العام"
  },
  {
   "docstatus": 0,
@@ -2922,7 +5064,7 @@
   "modified": "2023-07-30 18:44:34.463440",
   "name": "ar-My Leaves",
   "source_text": "My Leaves",
-  "translated_text": "\u0625\u062c\u0627\u0632\u0627\u062a\u064a"
+  "translated_text": "إجازاتي"
  },
  {
   "docstatus": 0,
@@ -2931,7 +5073,7 @@
   "modified": "2023-07-30 18:44:34.481078",
   "name": "ar-Open requests",
   "source_text": "Open requests ",
-  "translated_text": "\u0627\u0644\u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0645\u0641\u062a\u0648\u062d\u0629"
+  "translated_text": "الطلبات المفتوحة"
  },
  {
   "docstatus": 0,
@@ -2940,7 +5082,7 @@
   "modified": "2023-07-30 18:44:34.495320",
   "name": "ar-Leave requests",
   "source_text": "Leave requests ",
-  "translated_text": "\u0637\u0644\u0628\u0627\u062a \u0627\u0644\u0625\u062c\u0627\u0632\u0629"
+  "translated_text": "طلبات الإجازة"
  },
  {
   "docstatus": 0,
@@ -2949,7 +5091,7 @@
   "modified": "2023-07-30 18:44:34.503075",
   "name": "ar-New Leave Request",
   "source_text": "New Leave Request",
-  "translated_text": "\u0637\u0644\u0628 \u0625\u062c\u0627\u0632\u0629 \u062c\u062f\u064a\u062f"
+  "translated_text": "طلب إجازة جديد"
  },
  {
   "docstatus": 0,
@@ -2958,7 +5100,7 @@
   "modified": "2023-07-30 18:44:34.510655",
   "name": "ar-Select leave type",
   "source_text": "Select leave type",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0646\u0648\u0639 \u0627\u0644\u0625\u062c\u0627\u0632\u0629"
+  "translated_text": "اختر نوع الإجازة"
  },
  {
   "docstatus": 0,
@@ -2967,7 +5109,7 @@
   "modified": "2023-07-30 18:44:34.518385",
   "name": "ar-Add half day",
   "source_text": "Add half day",
-  "translated_text": "\u0625\u0636\u0627\u0641\u0629 \u0646\u0635\u0641 \u064a\u0648\u0645"
+  "translated_text": "إضافة نصف يوم"
  },
  {
   "docstatus": 0,
@@ -2976,7 +5118,7 @@
   "modified": "2023-07-30 18:44:34.530137",
   "name": "ar-Start Day",
   "source_text": "Start Day",
-  "translated_text": "\u064a\u0648\u0645 \u0627\u0644\u0628\u062f\u0621"
+  "translated_text": "يوم البدء"
  },
  {
   "docstatus": 0,
@@ -2985,7 +5127,7 @@
   "modified": "2023-07-30 18:44:34.537866",
   "name": "ar-End Day",
   "source_text": "End Day",
-  "translated_text": "\u064a\u0648\u0645 \u0627\u0644\u0627\u0646\u062a\u0647\u0627\u0621"
+  "translated_text": "يوم الانتهاء"
  },
  {
   "docstatus": 0,
@@ -2994,7 +5136,7 @@
   "modified": "2023-07-30 18:44:34.550279",
   "name": "ar-Half day",
   "source_text": "Half day",
-  "translated_text": "\u0646\u0635\u0641 \u064a\u0648\u0645"
+  "translated_text": "نصف يوم"
  },
  {
   "docstatus": 0,
@@ -3003,7 +5145,7 @@
   "modified": "2023-07-30 18:44:34.558147",
   "name": "ar-Period",
   "source_text": "Period",
-  "translated_text": "\u0627\u0644\u0641\u062a\u0631\u0629 \u0627\u0644\u0632\u0645\u0646\u064a\u0629"
+  "translated_text": "الفترة الزمنية"
  },
  {
   "docstatus": 0,
@@ -3012,7 +5154,7 @@
   "modified": "2023-07-30 18:44:34.565822",
   "name": "ar-Day Selection",
   "source_text": "Day Selection",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u0623\u064a\u0627\u0645"
+  "translated_text": "اختر الأيام"
  },
  {
   "docstatus": 0,
@@ -3021,7 +5163,7 @@
   "modified": "2023-07-30 18:44:34.577392",
   "name": "ar-Basic",
   "source_text": "Basic",
-  "translated_text": "\u0627\u0644\u0623\u0633\u0627\u0633\u064a"
+  "translated_text": "الأساسي"
  },
  {
   "docstatus": 0,
@@ -3030,7 +5172,7 @@
   "modified": "2023-07-30 18:44:34.585087",
   "name": "ar-Earnings",
   "source_text": "Earnings",
-  "translated_text": "\u0627\u0644\u0623\u0631\u0628\u0627\u062d"
+  "translated_text": "الأرباح"
  },
  {
   "docstatus": 0,
@@ -3039,7 +5181,7 @@
   "modified": "2023-07-30 18:44:34.592794",
   "name": "ar-Deduction",
   "source_text": "Deduction",
-  "translated_text": "\u0627\u0644\u0627\u0633\u062a\u0642\u0637\u0627\u0639\u0627\u062a"
+  "translated_text": "الاستقطاعات"
  },
  {
   "docstatus": 0,
@@ -3048,7 +5190,7 @@
   "modified": "2023-07-30 18:44:34.600484",
   "name": "ar-Gross Pay",
   "source_text": "Gross Pay",
-  "translated_text": "\u0627\u0644\u0623\u062c\u0631 \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a"
+  "translated_text": "الأجر الإجمالي"
  },
  {
   "docstatus": 0,
@@ -3057,7 +5199,7 @@
   "modified": "2023-07-30 18:44:34.612371",
   "name": "ar-Deductions",
   "source_text": "Deductions",
-  "translated_text": "\u0627\u0644\u0627\u0633\u062a\u0642\u0637\u0627\u0639\u0627\u062a"
+  "translated_text": "الاستقطاعات"
  },
  {
   "docstatus": 0,
@@ -3066,7 +5208,7 @@
   "modified": "2023-07-30 18:44:34.620043",
   "name": "ar-Effective work days",
   "source_text": "Effective work days",
-  "translated_text": "\u0623\u064a\u0627\u0645 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u0641\u0639\u0627\u0644\u0629"
+  "translated_text": "أيام العمل الفعالة"
  },
  {
   "docstatus": 0,
@@ -3075,7 +5217,7 @@
   "modified": "2023-07-30 18:44:34.627808",
   "name": "ar-Total work days",
   "source_text": "Total work days",
-  "translated_text": "\u0625\u062c\u0645\u0627\u0644\u064a \u0623\u064a\u0627\u0645 \u0627\u0644\u0639\u0645\u0644"
+  "translated_text": "إجمالي أيام العمل"
  },
  {
   "docstatus": 0,
@@ -3084,7 +5226,7 @@
   "modified": "2023-07-30 18:44:34.635422",
   "name": "ar-LOP",
   "source_text": "LOP",
-  "translated_text": "\u062e\u0635\u0645 \u0639\u062f\u0645 \u0627\u0644\u062d\u0636\u0648\u0631"
+  "translated_text": "خصم عدم الحضور"
  },
  {
   "docstatus": 0,
@@ -3093,7 +5235,7 @@
   "modified": "2023-07-30 18:44:34.646947",
   "name": "ar-Filter Transaction",
   "source_text": "Filter Transaction",
-  "translated_text": "\u062a\u0635\u0641\u064a\u0629 \u0627\u0644\u0645\u0639\u0627\u0645\u0644\u0629"
+  "translated_text": "تصفية المعاملة"
  },
  {
   "docstatus": 0,
@@ -3102,7 +5244,7 @@
   "modified": "2023-07-30 18:44:34.654545",
   "name": "ar-No Transaction",
   "source_text": "No Transaction",
-  "translated_text": "\u0644\u0627 \u062a\u0648\u062c\u062f \u0645\u0639\u0627\u0645\u0644\u0629"
+  "translated_text": "لا توجد معاملة"
  },
  {
   "docstatus": 0,
@@ -3111,7 +5253,7 @@
   "modified": "2023-07-30 18:44:34.662315",
   "name": "ar-Select Party Name",
   "source_text": "Select Party Name",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0633\u0645 \u0627\u0644\u0637\u0631\u0641"
+  "translated_text": "اختر اسم الطرف"
  },
  {
   "docstatus": 0,
@@ -3120,7 +5262,7 @@
   "modified": "2023-07-30 18:44:34.670070",
   "name": "ar-Select Party Type",
   "source_text": "Select Party Type",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0646\u0648\u0639 \u0627\u0644\u0637\u0631\u0641"
+  "translated_text": "اختر نوع الطرف"
  },
  {
   "docstatus": 0,
@@ -3129,7 +5271,7 @@
   "modified": "2023-07-30 18:44:34.677799",
   "name": "ar-From Date",
   "source_text": "From Date",
-  "translated_text": "\u0645\u0646 \u0627\u0644\u062a\u0627\u0631\u064a\u062e"
+  "translated_text": "من التاريخ"
  },
  {
   "docstatus": 0,
@@ -3138,7 +5280,7 @@
   "modified": "2023-07-30 18:44:34.685446",
   "name": "ar-To Date",
   "source_text": "To Date",
-  "translated_text": "\u0625\u0644\u0649 \u0627\u0644\u062a\u0627\u0631\u064a\u062e"
+  "translated_text": "إلى التاريخ"
  },
  {
   "docstatus": 0,
@@ -3147,7 +5289,7 @@
   "modified": "2023-07-30 18:44:34.693074",
   "name": "ar-Debit",
   "source_text": "Debit",
-  "translated_text": "\u0645\u062f\u064a\u0646"
+  "translated_text": "مدين"
  },
  {
   "docstatus": 0,
@@ -3156,7 +5298,7 @@
   "modified": "2023-07-30 18:44:34.701147",
   "name": "ar-Credit",
   "source_text": "Credit",
-  "translated_text": "\u062f\u0627\u0626\u0646"
+  "translated_text": "دائن"
  },
  {
   "docstatus": 0,
@@ -3165,7 +5307,7 @@
   "modified": "2023-07-30 18:44:34.725013",
   "name": "ar-Balance",
   "source_text": "Balance",
-  "translated_text": "\u0627\u0644\u0631\u0635\u064a\u062f"
+  "translated_text": "الرصيد"
  },
  {
   "docstatus": 0,
@@ -3174,7 +5316,7 @@
   "modified": "2023-07-30 18:44:34.747520",
   "name": "ar-Visits",
   "source_text": "Visits",
-  "translated_text": "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a"
+  "translated_text": "الزيارات"
  },
  {
   "docstatus": 0,
@@ -3183,7 +5325,7 @@
   "modified": "2023-07-30 18:44:34.769565",
   "name": "ar-Visit Details",
   "source_text": "Visit Details",
-  "translated_text": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+  "translated_text": "تفاصيل الزيارة"
  },
  {
   "docstatus": 0,
@@ -3192,7 +5334,7 @@
   "modified": "2023-07-30 18:44:34.789779",
   "name": "ar-Employee",
   "source_text": "Employee",
-  "translated_text": "\u0627\u0644\u0645\u0648\u0638\u0641"
+  "translated_text": "الموظف"
  },
  {
   "docstatus": 0,
@@ -3201,7 +5343,7 @@
   "modified": "2023-07-30 18:44:34.811003",
   "name": "ar-Update Visit",
   "source_text": "Update Visit",
-  "translated_text": "\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+  "translated_text": "تحديث الزيارة"
  },
  {
   "docstatus": 0,
@@ -3210,7 +5352,7 @@
   "modified": "2023-07-30 18:44:34.826288",
   "name": "ar-Select Visit Type",
   "source_text": "Select Visit Type",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0646\u0648\u0639 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+  "translated_text": "اختر نوع الزيارة"
  },
  {
   "docstatus": 0,
@@ -3219,7 +5361,7 @@
   "modified": "2023-07-30 18:44:34.838057",
   "name": "ar-Search by Order ID or Customer Name",
   "source_text": "Search by Order ID or Customer Name",
-  "translated_text": "\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0631\u0642\u0645 \u0627\u0644\u0637\u0644\u0628 \u0623\u0648 \u0627\u0633\u0645 \u0627\u0644\u0639\u0645\u064a\u0644"
+  "translated_text": "البحث عن رقم الطلب أو اسم العميل"
  },
  {
   "docstatus": 0,
@@ -3228,7 +5370,7 @@
   "modified": "2023-07-30 18:44:34.845645",
   "name": "ar-Customer name",
   "source_text": "Customer name",
-  "translated_text": "\u0627\u0633\u0645 \u0627\u0644\u0639\u0645\u064a\u0644"
+  "translated_text": "اسم العميل"
  },
  {
   "docstatus": 0,
@@ -3237,7 +5379,7 @@
   "modified": "2023-07-30 18:44:34.853239",
   "name": "ar-Items",
   "source_text": "Items",
-  "translated_text": "\u0627\u0644\u0639\u062f\u062f"
+  "translated_text": "العدد"
  },
  {
   "docstatus": 0,
@@ -3246,7 +5388,7 @@
   "modified": "2023-07-30 18:44:34.860872",
   "name": "ar-Amount",
   "source_text": "Amount",
-  "translated_text": "\u0627\u0644\u0645\u0628\u0644\u063a"
+  "translated_text": "المبلغ"
  },
  {
   "docstatus": 0,
@@ -3255,7 +5397,7 @@
   "modified": "2023-07-30 18:44:34.868762",
   "name": "ar-Order Details",
   "source_text": "Order Details",
-  "translated_text": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0637\u0644\u0628"
+  "translated_text": "تفاصيل الطلب"
  },
  {
   "docstatus": 0,
@@ -3264,7 +5406,7 @@
   "modified": "2023-07-30 18:44:34.876420",
   "name": "ar-Update Order",
   "source_text": "Update Order",
-  "translated_text": "\u062a\u062d\u062f\u064a\u062b \u0627\u0644\u0637\u0644\u0628"
+  "translated_text": "تحديث الطلب"
  },
  {
   "docstatus": 0,
@@ -3273,7 +5415,7 @@
   "modified": "2023-07-30 18:44:34.884067",
   "name": "ar-Comments",
   "source_text": "Comments",
-  "translated_text": "\u0627\u0644\u062a\u0639\u0644\u064a\u0642\u0627\u062a"
+  "translated_text": "التعليقات"
  },
  {
   "docstatus": 0,
@@ -3282,7 +5424,7 @@
   "modified": "2023-07-30 18:44:34.891635",
   "name": "ar-Comments here...",
   "source_text": "Comments here...",
-  "translated_text": "\u0623\u0636\u0641 \u062a\u0639\u0644\u064a\u0642\u064b\u0627 \u0647\u0646\u0627..."
+  "translated_text": "أضف تعليقًا هنا..."
  },
  {
   "docstatus": 0,
@@ -3291,7 +5433,7 @@
   "modified": "2023-07-30 18:44:34.909010",
   "name": "ar-Expected Delivery",
   "source_text": "Expected Delivery",
-  "translated_text": "\u0627\u0644\u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0645\u062a\u0648\u0642\u0639"
+  "translated_text": "التسليم المتوقع"
  },
  {
   "docstatus": 0,
@@ -3300,7 +5442,7 @@
   "modified": "2023-07-30 18:44:34.921402",
   "name": "ar-Created by",
   "source_text": "Created by",
-  "translated_text": "\u062a\u0645 \u0627\u0644\u0625\u0646\u0634\u0627\u0621 \u0628\u0648\u0627\u0633\u0637\u0629"
+  "translated_text": "تم الإنشاء بواسطة"
  },
  {
   "docstatus": 0,
@@ -3309,7 +5451,7 @@
   "modified": "2023-07-30 18:44:34.929071",
   "name": "ar-Item code",
   "source_text": "Item code",
-  "translated_text": "\u0631\u0645\u0632 \u0627\u0644\u0639\u0646\u0635\u0631"
+  "translated_text": "رمز العنصر"
  },
  {
   "docstatus": 0,
@@ -3318,7 +5460,7 @@
   "modified": "2023-07-30 18:44:34.936652",
   "name": "ar-Qty",
   "source_text": "Qty",
-  "translated_text": "\u0627\u0644\u0643\u0645\u064a\u0629"
+  "translated_text": "الكمية"
  },
  {
   "docstatus": 0,
@@ -3327,7 +5469,7 @@
   "modified": "2023-07-30 18:44:34.944316",
   "name": "ar-Address",
   "source_text": "Address",
-  "translated_text": "\u0627\u0644\u0639\u0646\u0648\u0627\u0646"
+  "translated_text": "العنوان"
  },
  {
   "docstatus": 0,
@@ -3336,7 +5478,7 @@
   "modified": "2023-07-30 18:44:34.955966",
   "name": "ar-Annual Billing",
   "source_text": "Annual Billing",
-  "translated_text": "\u0627\u0644\u0641\u0648\u062a\u0631\u0629 \u0627\u0644\u0633\u0646\u0648\u064a\u0629"
+  "translated_text": "الفوترة السنوية"
  },
  {
   "docstatus": 0,
@@ -3345,7 +5487,7 @@
   "modified": "2023-07-30 18:44:34.963575",
   "name": "ar-Total Unpaid",
   "source_text": "Total Unpaid",
-  "translated_text": "\u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u063a\u064a\u0631 \u0627\u0644\u0645\u062f\u0641\u0648\u0639"
+  "translated_text": "إجمالي الغير المدفوع"
  },
  {
   "docstatus": 0,
@@ -3354,7 +5496,7 @@
   "modified": "2023-07-30 18:44:34.979542",
   "name": "ar-Tax & Discount",
   "source_text": "Tax & Discount",
-  "translated_text": "\u0627\u0644\u0636\u0631\u064a\u0628\u0629 \u0648\u0627\u0644\u062e\u0635\u0645"
+  "translated_text": "الضريبة والخصم"
  },
  {
   "docstatus": 0,
@@ -3363,7 +5505,7 @@
   "modified": "2023-07-30 18:44:35.000076",
   "name": "ar-Total Tax :",
   "source_text": "Total Tax :",
-  "translated_text": "\u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0636\u0631\u064a\u0628\u0629 :"
+  "translated_text": "إجمالي الضريبة :"
  },
  {
   "docstatus": 0,
@@ -3372,7 +5514,7 @@
   "modified": "2023-07-30 18:44:35.007760",
   "name": "ar-Sub total :",
   "source_text": "Sub total :",
-  "translated_text": "\u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a \u0642\u0628\u0644 \u0627\u0644\u0636\u0631\u064a\u0628\u0629 :"
+  "translated_text": "الإجمالي قبل الضريبة :"
  },
  {
   "docstatus": 0,
@@ -3381,7 +5523,7 @@
   "modified": "2023-07-30 18:44:35.015331",
   "name": "ar-Discount :",
   "source_text": "Discount :",
-  "translated_text": "\u0627\u0644\u062e\u0635\u0645:"
+  "translated_text": "الخصم:"
  },
  {
   "docstatus": 0,
@@ -3390,7 +5532,7 @@
   "modified": "2023-07-30 18:44:35.022937",
   "name": "ar-Total :",
   "source_text": "Total :",
-  "translated_text": "\u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a:"
+  "translated_text": "الإجمالي:"
  },
  {
   "docstatus": 0,
@@ -3399,7 +5541,7 @@
   "modified": "2023-07-30 18:44:35.030873",
   "name": "ar-Approved",
   "source_text": "Approved",
-  "translated_text": "\u062a\u0645\u062a \u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u064a\u0647"
+  "translated_text": "تمت الموافقة عليه"
  },
  {
   "docstatus": 0,
@@ -3408,7 +5550,7 @@
   "modified": "2023-07-30 18:44:35.038596",
   "name": "ar-Rejected",
   "source_text": "Rejected",
-  "translated_text": "\u062a\u0645 \u0631\u0641\u0636\u0647"
+  "translated_text": "تم رفضه"
  },
  {
   "docstatus": 0,
@@ -3417,7 +5559,7 @@
   "modified": "2023-07-30 18:44:35.050093",
   "name": "ar-Draft",
   "source_text": "Draft",
-  "translated_text": "\u0645\u0633\u0648\u062f\u0647"
+  "translated_text": "مسوده"
  },
  {
   "docstatus": 0,
@@ -3426,7 +5568,7 @@
   "modified": "2023-07-30 18:44:35.057676",
   "name": "ar-Delivered",
   "source_text": "Delivered",
-  "translated_text": "\u062a\u0645 \u0627\u0644\u062a\u0633\u0644\u064a\u0645"
+  "translated_text": "تم التسليم"
  },
  {
   "docstatus": 0,
@@ -3435,7 +5577,7 @@
   "modified": "2023-07-30 18:44:35.065369",
   "name": "ar-Create Order",
   "source_text": "Create Order",
-  "translated_text": "\u0625\u0646\u0634\u0627\u0621 \u0637\u0644\u0628"
+  "translated_text": "إنشاء طلب"
  },
  {
   "docstatus": 0,
@@ -3444,7 +5586,7 @@
   "modified": "2023-07-30 18:44:35.073102",
   "name": "ar-Select Customer",
   "source_text": "Select Customer",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u0639\u0645\u064a\u0644"
+  "translated_text": "اختر العميل"
  },
  {
   "docstatus": 0,
@@ -3453,7 +5595,7 @@
   "modified": "2023-07-30 18:44:35.080857",
   "name": "ar-Select Item",
   "source_text": "Select Item",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u0627\u0644\u0635\u0646\u0641"
+  "translated_text": "اختر الصنف"
  },
  {
   "docstatus": 0,
@@ -3462,7 +5604,7 @@
   "modified": "2023-07-30 18:44:35.088511",
   "name": "ar-Select Delivery day",
   "source_text": "Select Delivery day",
-  "translated_text": "\u0627\u062e\u062a\u0631 \u064a\u0648\u0645 \u0627\u0644\u062a\u0648\u0635\u064a\u0644"
+  "translated_text": "اختر يوم التوصيل"
  },
  {
   "docstatus": 0,
@@ -3471,7 +5613,7 @@
   "modified": "2023-07-30 18:44:35.096129",
   "name": "ar-Attachments",
   "source_text": "Attachments",
-  "translated_text": "\u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a"
+  "translated_text": "المرفقات"
  },
  {
   "docstatus": 0,
@@ -3480,7 +5622,7 @@
   "modified": "2023-07-30 18:44:35.103970",
   "name": "ar-Quantity",
   "source_text": "Quantity",
-  "translated_text": "\u0627\u0644\u0643\u0645\u064a\u0629"
+  "translated_text": "الكمية"
  },
  {
   "docstatus": 0,
@@ -3489,7 +5631,7 @@
   "modified": "2023-07-30 18:44:35.118643",
   "name": "ar-Back",
   "source_text": "Back",
-  "translated_text": "\u0627\u0644\u0639\u0648\u062f\u0647"
+  "translated_text": "العوده"
  },
  {
   "docstatus": 0,
@@ -3498,7 +5640,7 @@
   "modified": "2023-07-30 18:45:42.345206",
   "name": "ar-Select Language",
   "source_text": "Select Language",
-  "translated_text": "\u0627\u062e\u062a\u0627\u0631 \u0627\u0644\u0644\u063a\u0629"
+  "translated_text": "اختار اللغة"
  },
  {
   "docstatus": 0,
@@ -3507,7 +5649,7 @@
   "modified": "2023-07-30 18:52:28.392089",
   "name": "hi-Select Language",
   "source_text": "Select Language",
-  "translated_text": "\u092d\u093e\u0937\u093e \u091a\u0941\u0928\u0947\r\n"
+  "translated_text": "भाषा चुने\r\n"
  },
  {
   "docstatus": 0,
@@ -3516,7 +5658,7 @@
   "modified": "2023-07-30 18:52:55.626845",
   "name": "gu-Select Language",
   "source_text": "Select Language",
-  "translated_text": "\u0aad\u0abe\u0ab7\u0abe \u0aaa\u0ab8\u0a82\u0aa6 \u0a95\u0ab0\u0acb\r\n"
+  "translated_text": "ભાષા પસંદ કરો\r\n"
  },
  {
   "docstatus": 0,
@@ -3696,7 +5838,7 @@
   "modified": "2023-08-06 18:58:34.200432",
   "name": "ar-View All",
   "source_text": "View All",
-  "translated_text": "\u0645\u0634\u0627\u0647\u062f\u0629 \u0627\u0644\u0643\u0644"
+  "translated_text": "مشاهدة الكل"
  },
  {
   "docstatus": 0,
@@ -3705,7 +5847,7 @@
   "modified": "2023-08-06 19:03:54.241146",
   "name": "ar-Please select customer",
   "source_text": "Please select customer",
-  "translated_text": "\u0627\u0644\u0631\u062c\u0627\u0621 \u062a\u062d\u062f\u064a\u062f \u0627\u0644\u0639\u0645\u064a\u0644"
+  "translated_text": "الرجاء تحديد العميل"
  },
  {
   "docstatus": 0,
@@ -3822,7 +5964,7 @@
   "modified": "2023-08-06 20:18:45.138698",
   "name": "ar-ago",
   "source_text": "ago",
-  "translated_text": "\u0645\u0646\u0630"
+  "translated_text": "منذ"
  },
  {
   "docstatus": 0,
@@ -3831,7 +5973,7 @@
   "modified": "2023-08-06 20:19:53.602176",
   "name": "ar-First Half",
   "source_text": "First Half",
-  "translated_text": "\u0627\u0644\u0646\u0635\u0641 \u0627\u0644\u0627\u0648\u0644"
+  "translated_text": "النصف الاول"
  },
  {
   "docstatus": 0,
@@ -3840,6 +5982,456 @@
   "modified": "2023-08-06 20:20:11.382436",
   "name": "ar-Second Half",
   "source_text": "Second Half",
-  "translated_text": "\u0627\u0644\u0646\u0635\u0641 \u0627\u0644\u062b\u0627\u0646\u064a"
+  "translated_text": "النصف الثاني"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:02:35.880060",
+  "name": "ar-Year",
+  "source_text": "Month",
+  "translated_text": "شهر"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:12:30.415075",
+  "name": "hi-Year",
+  "source_text": "Year",
+  "translated_text": "سنة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:20:13.741679",
+  "name": "en-Payment Details",
+  "source_text": "Payment Details",
+  "translated_text": "Payment Details"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:20:38.516771",
+  "name": "ar-Payment Details",
+  "source_text": "Payment Details",
+  "translated_text": "بيانات الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:23:44.131427",
+  "name": "en-New Payment Entry",
+  "source_text": "New Payment Entry",
+  "translated_text": "New Payment Entry"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:24:01.900443",
+  "name": "ar-New Payment Entry",
+  "source_text": "New Payment Entry",
+  "translated_text": "إدخال الدفع الجديد"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:25:33.903186",
+  "name": "en-Update Payment Entry",
+  "source_text": "Update Payment Entry",
+  "translated_text": "Update Payment Entry"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:26:01.367815",
+  "name": "ar-Update Payment Entry",
+  "source_text": "Update Payment Entry",
+  "translated_text": "تحديث إدخال الدفع"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:33:37.486051",
+  "name": "en-show less",
+  "source_text": "show less",
+  "translated_text": "show less"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:34:04.956669",
+  "name": "ar-show less",
+  "source_text": "show less",
+  "translated_text": "تظهر أقل"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:36:28.534869",
+  "name": "en-Be the first to comment 💬",
+  "source_text": "Be the first to comment 💬",
+  "translated_text": "Be the first to comment 💬"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:37:39.492148",
+  "name": "ar-Be the first to comment 💬",
+  "source_text": "Be the first to comment 💬",
+  "translated_text": "كن أول من يعلق 💬"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:42:08.958050",
+  "name": "en-Be the first to post 📝",
+  "source_text": "Be the first to post 📝",
+  "translated_text": "Be the first to post 📝"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:42:19.409472",
+  "name": "ar-Be the first to post 📝",
+  "source_text": "Be the first to post 📝",
+  "translated_text": "كن أول من يرسل 📝"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:44:05.768560",
+  "name": "en-Delete Payment Entry ?",
+  "source_text": "Delete Payment Entry ?",
+  "translated_text": "Delete Payment Entry ?"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:44:18.486812",
+  "name": "ar-Delete Payment Entry ?",
+  "source_text": "Delete Payment Entry ?",
+  "translated_text": "حذف إدخال الدفع؟"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:46:14.723100",
+  "name": "en-Are you sure you want to delete this payment entry ?",
+  "source_text": "Are you sure you want to delete this payment entry ?",
+  "translated_text": "Are you sure you want to delete this payment entry ?"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:46:30.312524",
+  "name": "ar-Are you sure you want to delete this payment entry ?",
+  "source_text": "Are you sure you want to delete this payment entry ?",
+  "translated_text": "هل أنت متأكد أنك تريد حذف إدخال الدفع هذا؟"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:49:52.023189",
+  "name": "en-Timesheet Details",
+  "source_text": "Timesheet Details",
+  "translated_text": "Timesheet Details"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:50:15.392542",
+  "name": "ar-Timesheet Details",
+  "source_text": "Timesheet Details",
+  "translated_text": "تفاصيل الجدول الزمني"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:52:00.603262",
+  "name": "en-Update Timesheet",
+  "source_text": "Update Timesheet",
+  "translated_text": "Update Timesheet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:52:13.159377",
+  "name": "ar-Update Timesheet",
+  "source_text": "Update Timesheet",
+  "translated_text": "تحديث الجدول الزمني"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:52:55.114348",
+  "name": "en-New Timesheet",
+  "source_text": "New Timesheet",
+  "translated_text": "New Timesheet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:53:05.855303",
+  "name": "ar-New Timesheet",
+  "source_text": "New Timesheet",
+  "translated_text": "جدول زمني جديد"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 08:59:19.357288",
+  "name": "en-Activity Type",
+  "source_text": "Activity Type",
+  "translated_text": "Activity Type"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 08:59:31.863872",
+  "name": "ar-Activity Type",
+  "source_text": "Activity Type",
+  "translated_text": "نوع النشاط"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:01:56.382617",
+  "name": "en-From Time*",
+  "source_text": "From Time*",
+  "translated_text": "From Time*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:02:09.372313",
+  "name": "ar-From Time*",
+  "source_text": "From Time*",
+  "translated_text": "من وقت*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:03:24.722718",
+  "name": "en-To Time*",
+  "source_text": "To Time*",
+  "translated_text": "To Time*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:03:39.739030",
+  "name": "ar-To Time*",
+  "source_text": "To Time*",
+  "translated_text": "الى وقت*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:11:36.419235",
+  "name": "en-Hrs",
+  "source_text": "Hrs",
+  "translated_text": "Hrs"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:11:53.558228",
+  "name": "ar-Hrs",
+  "source_text": "Hrs",
+  "translated_text": "ساعات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:16:09.101392",
+  "name": "en-Invalid Hours",
+  "source_text": "Invalid Hours",
+  "translated_text": "Invalid Hours"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:16:48.436471",
+  "name": "ar-Invalid Hours",
+  "source_text": "Invalid Hours",
+  "translated_text": "ساعات غير صالحة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:19:32.819271",
+  "name": "en-Salary Slip",
+  "source_text": "Salary Slip",
+  "translated_text": "Salary Slip"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:19:54.461627",
+  "name": "ar-Salary Slip",
+  "source_text": "Salary Slip",
+  "translated_text": "وصل الراتب"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:35:35.388146",
+  "name": "en-Issue Details",
+  "source_text": "Issue Details",
+  "translated_text": "Issue Details"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:35:49.112302",
+  "name": "ar-Issue Details",
+  "source_text": "Issue Details",
+  "translated_text": "تفاصيل المشكلة"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:42:39.284739",
+  "name": "ar-hours",
+  "source_text": "hours",
+  "translated_text": "ساعات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:47:52.434268",
+  "name": "en-That's all you got.",
+  "source_text": "That's all you got.",
+  "translated_text": "That's all you got."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:49:44.583840",
+  "name": "ar-That's all you got.",
+  "source_text": "That's all you got.",
+  "translated_text": "هل هذا كل ما لديك."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 09:53:32.277443",
+  "name": "en-No Items Found 😕!",
+  "source_text": "No Items Found 😕!",
+  "translated_text": "No Items Found 😕!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 09:53:51.098054",
+  "name": "ar-No Items Found 😕!",
+  "source_text": "No Items Found 😕!",
+  "translated_text": "لم يتم العثور على أي عناصر 😕!"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 10:00:59.646599",
+  "name": "ar-No Data Available",
+  "source_text": "No Data Available",
+  "translated_text": "لا تتوافر بيانات"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 10:11:13.134032",
+  "name": "en-Date*",
+  "source_text": "Date*",
+  "translated_text": "Date*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 10:11:36.394174",
+  "name": "ar-Date*",
+  "source_text": "Date*",
+  "translated_text": "تاريخ*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 10:13:13.383457",
+  "name": "en-Company*",
+  "source_text": "Company*",
+  "translated_text": "Company*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 10:13:28.219447",
+  "name": "ar-Company*",
+  "source_text": "Company*",
+  "translated_text": "شركة*"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "en",
+  "modified": "2024-05-11 10:16:18.183399",
+  "name": "en-Party Balance:",
+  "source_text": "Party Balance:",
+  "translated_text": "Party Balance:"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Ess Translation",
+  "language": "ar",
+  "modified": "2024-05-11 10:16:57.513538",
+  "name": "ar-Party Balance:",
+  "source_text": "Party Balance:",
+  "translated_text": "رصيد الحزب:"
  }
 ]
