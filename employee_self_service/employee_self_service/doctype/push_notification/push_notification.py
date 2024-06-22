@@ -1,21 +1,15 @@
-# Copyright (c) 2022, Nesscale Solutions Private Limited and contributors
-# For license information, please see license.txt
-
 import frappe
 import pyfcm
 from frappe.model.document import Document
 from pyfcm import FCMNotification
 import json
 import datetime
-
+import requests
+import google.auth.transport.requests
+from google.oauth2 import service_account
 
 class PushNotification(Document):
     def after_insert(self):
-        server_key = frappe.db.get_single_value(
-            "Employee Self Service Settings", "firebase_server_key"
-        )
-        if not server_key:
-            return
         if self.send_for == "Single User":
             token = frappe.db.get_value(
                 "Employee Device Info",
@@ -49,7 +43,6 @@ class PushNotification(Document):
                 self.response = json.dumps(
                     send_multiple_notification(
                         registration_ids,
-                        users,
                         self.title,
                         self.message,
                         self.notification_type,
@@ -74,6 +67,14 @@ class PushNotification(Document):
                 )
                 self.save()
 
+def _get_access_token():
+    GOOGLE_APPLICATION_CREDENTIALS = "/home/manav/nesscale-bench/apps/employee_self_service/employee_self_service/service_account.json"
+    SCOPES = ['https://www.googleapis.com/auth/firebase.messaging']
+    credentials = service_account.Credentials.from_service_account_file(
+        GOOGLE_APPLICATION_CREDENTIALS, scopes=SCOPES)
+    request = google.auth.transport.requests.Request()
+    credentials.refresh(request)
+    return credentials.token
 
 @frappe.whitelist()
 def send_single_notification(
@@ -83,54 +84,44 @@ def send_single_notification(
     user=None,
     notification_type=None,
 ):
-    server_key = frappe.db.get_single_value(
-        "Employee Self Service Settings", "firebase_server_key"
-    )
-
-    push_service = FCMNotification(api_key=server_key)
-    # push_service = FCMNotification(
-    #     api_key="AAAAPcJ19TQ:APA91bH0IMYIyGdAAhH0SCEoXHr1gS4jjeaZgCsIcjr5uF5adQqiPG-QARbOx6XS4XOB3W3Km65xJUBo1W6jg8uLYcuHKSMcu-U7QurQLuEEOXHAu9eH9eLYg0RDtNOqYwEAIoOwBHqF"
-    # )
-
-    registration_id = registration_id
-    message_title = title
-    message_body = message
-
-    data_message = {
-        "notification_type": notification_type,
+    PROJECT_ID = 'rfc-ess'
+    BASE_URL = 'https://fcm.googleapis.com'
+    FCM_ENDPOINT = f'v1/projects/{PROJECT_ID}/messages:send'
+    FCM_URL = f'{BASE_URL}/{FCM_ENDPOINT}'
+    headers = {
+        'Authorization': f'Bearer {_get_access_token()}',
+        'Content-Type': 'application/json; UTF-8',
+        "Accept": "application/json",
     }
-
-    return push_service.notify_single_device(
-        registration_id=registration_id,
-        message_title=message_title,
-        message_body=message_body,
-        data_message=data_message,
-    )
-
+    data = {
+            "message": {
+                "token": registration_id,
+                "notification": {
+                    "title": title,
+                    "body": message
+                },
+                "data": {
+                    'notification_type': notification_type,
+                },
+            }
+        }
+    response = requests.post(FCM_URL, data=json.dumps(data), headers=headers)
+    return response.json()
 
 @frappe.whitelist()
 def send_multiple_notification(
-    registration_ids, users=None, title=None, message=None, notification_type=None
+    registration_ids, title=None, message=None, notification_type=None
 ):
-    server_key = frappe.db.get_single_value(
-        "Employee Self Service Settings", "firebase_server_key"
-    )
-    push_service = FCMNotification(api_key=server_key)
-    # push_service = FCMNotification(
-    #     api_key="AAAAPcJ19TQ:APA91bH0IMYIyGdAAhH0SCEoXHr1gS4jjeaZgCsIcjr5uF5adQqiPG-QARbOx6XS4XOB3W3Km65xJUBo1W6jg8uLYcuHKSMcu-U7QurQLuEEOXHAu9eH9eLYg0RDtNOqYwEAIoOwBHqF"
-    # )
-
-    registration_ids = registration_ids
-    message_title = title
-    message_body = message
-    data_message = {"notification_type": notification_type}
-    return push_service.notify_multiple_devices(
-        registration_ids=registration_ids,
-        message_title=message_title,
-        message_body=message_body,
-        data_message=data_message,
-    )
-
+    responses = []
+    for registration_id in registration_ids:
+        response = send_single_notification(
+            registration_id,
+            title,
+            message,
+            notification_type=notification_type
+        )
+        responses.append(response)
+    return responses
 
 def create_push_notification(title, message, send_for, notification_type, user=None):
     push_notification_doc = frappe.new_doc("Push Notification")
