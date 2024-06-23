@@ -1,8 +1,8 @@
 import frappe
 from bs4 import BeautifulSoup
 from frappe import _
-from frappe.utils import cstr
-
+from frappe.utils import cstr,now
+import json
 import wrapt
 
 
@@ -44,6 +44,11 @@ def ess_validate(methods):
     def wrapper(wrapped, instance, args, kwargs):
         if not frappe.local.request.method in methods:
             return gen_response(500, "Invalid Request Method")
+        try:
+            if frappe.request.get_data():
+                kwargs = json.loads(frappe.request.get_data())
+        except Exception as e:
+            frappe.log_error(title="request log error",message=frappe.get_traceback())
         return wrapped(*args, **kwargs)
 
     return wrapper
