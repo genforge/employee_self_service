@@ -29,6 +29,7 @@ from employee_self_service.mobile.v1.api_utils import (
     get_ess_settings,
     get_global_defaults,
     exception_handler,
+    convert_timezone,
 )
 from frappe.handler import upload_file
 from erpnext.accounts.utils import get_fiscal_year
@@ -36,6 +37,7 @@ from erpnext.accounts.utils import get_fiscal_year
 from employee_self_service.employee_self_service.doctype.push_notification.push_notification import (
     create_push_notification,
 )
+from frappe.utils.data import get_system_timezone
 
 
 @frappe.whitelist(allow_guest=True)
@@ -383,7 +385,9 @@ def download_pdf(doctype, name, format=None, doc=None, no_letterhead=0):
 @ess_validate(methods=["GET"])
 def get_dashboard():
     try:
-        emp_data = get_employee_by_user(frappe.session.user, fields=["name", "company", "image", "employee_name"])
+        emp_data = get_employee_by_user(
+            frappe.session.user, fields=["name", "company", "image", "employee_name"]
+        )
         notice_board = get_notice_board(emp_data.get("name"))
         # attendance_details = get_attendance_details(emp_data)
         log_details = get_last_log_details(emp_data.get("name"))
@@ -399,9 +403,11 @@ def get_dashboard():
             "version": settings.get("version") or "1.0",
             "update_version_forcefully": settings.get("update_version_forcefully") or 1,
             "company": emp_data.get("company") or "Employee Dashboard",
-            "last_log_time": log_details.get("time").strftime("%I:%M%p")
-            if log_details.get("time")
-            else "",
+            "last_log_time": (
+                log_details.get("time").strftime("%I:%M %p")
+                if log_details.get("time")
+                else ""
+            ),
             "check_in_with_image": settings.get("check_in_with_image"),
             "check_in_with_location": settings.get("check_in_with_location"),
             "quick_task": settings.get("quick_task"),
@@ -461,6 +467,12 @@ def get_last_log_details(employee):
     )
 
     if log_details:
+        user_time_zone = frappe.db.get_value("User", frappe.session.user, "time_zone")
+        system_timezone = get_system_timezone()
+        if user_time_zone:
+            log_details[0].time = convert_timezone(
+                log_details[0].time, system_timezone, user_time_zone
+            )
         return log_details[0]
     else:
         return {"log_type": "OUT", "time": None}
