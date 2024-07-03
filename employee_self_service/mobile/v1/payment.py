@@ -56,35 +56,43 @@ def get_defaults_for_pe(payment_entry_meta):
 
 @frappe.whitelist()
 @ess_validate(methods=["GET"])
-def get_party(party_type,start=0, page_length=10, filters=None):
+def get_party(party_type, start=0, page_length=10, filters=None):
     try:
         if party_type == "Customer":
             meta_data = frappe.get_list(
-                party_type, fields=["name", "customer_name as party_name","mobile_no as 'phone'"],start=start,
-            page_length=page_length,
-            order_by="modified desc",
-            filters=filters,
+                party_type,
+                fields=["name", "customer_name as party_name", "mobile_no as 'phone'"],
+                start=start,
+                page_length=page_length,
+                order_by="modified desc",
+                filters=filters,
             )
         if party_type == "Employee":
             meta_data = frappe.get_list(
-                party_type, fields=["name", "employee_name as party_name","'' as 'phone'"],start=start,
-            page_length=page_length,
-            order_by="modified desc",
-            filters=filters,
+                party_type,
+                fields=["name", "employee_name as party_name", "'' as 'phone'"],
+                start=start,
+                page_length=page_length,
+                order_by="modified desc",
+                filters=filters,
             )
         if party_type == "Shareholder":
             meta_data = frappe.get_list(
-                party_type, fields=["name", "title as party_name","'' as 'phone'"],start=start,
-            page_length=page_length,
-            order_by="modified desc",
-            filters=filters,
+                party_type,
+                fields=["name", "title as party_name", "'' as 'phone'"],
+                start=start,
+                page_length=page_length,
+                order_by="modified desc",
+                filters=filters,
             )
         if party_type == "Supplier":
             meta_data = frappe.get_list(
-                party_type, fields=["name", "supplier_name as party_name","'' as phone"],start=start,
-            page_length=page_length,
-            order_by="modified desc",
-            filters=filters,
+                party_type,
+                fields=["name", "supplier_name as party_name", "'' as phone"],
+                start=start,
+                page_length=page_length,
+                order_by="modified desc",
+                filters=filters,
             )
         gen_response(200, "data get successfully", meta_data)
     except frappe.PermissionError:
@@ -267,6 +275,7 @@ def make_payment(*args, **kwargs):
                     reference_date=data.get("reference_date"),
                     received_amount=data.get("paid_amount"),
                     references=data.get("references"),
+                    cost_center=data.get("cost_center"),
                 )
             )
             if not check_workflow_exists("Payment Entry"):
@@ -276,7 +285,7 @@ def make_payment(*args, **kwargs):
                     payment_doc.insert()
             else:
                 payment_doc.save()
-        
+
         if data.get("attachments") is not None:
             for file in data.get("attachments"):
                 file_doc = frappe.get_doc(
@@ -360,6 +369,7 @@ def get_payment_entry(id):
                 "reference_no",
                 "reference_date",
                 "workflow_state",
+                "cost_center",
             ],
             payment_entry,
         )
