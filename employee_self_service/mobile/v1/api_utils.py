@@ -4,6 +4,7 @@ from frappe import _
 from frappe.utils import cstr,now
 import json
 import wrapt
+IGNORE_PATH = ["create_timesheet"]
 
 
 def gen_response(status, message, data=[]):
@@ -45,7 +46,11 @@ def ess_validate(methods):
         if not frappe.local.request.method in methods:
             return gen_response(500, "Invalid Request Method")
         try:
-            if frappe.request.get_data():
+            ignore_path = False
+            for row in IGNORE_PATH:
+                if row in frappe.request.path:
+                    ignore_path = True
+            if not ignore_path and frappe.request.get_data():
                 kwargs = json.loads(frappe.request.get_data())
         except Exception as e:
             frappe.log_error(title="request log error",message=frappe.get_traceback())
