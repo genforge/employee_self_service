@@ -165,11 +165,11 @@ def get_leave_application_list():
 
 
 def get_leave_balance_report(employee, company, fiscal_year):
-    # fiscal_year = get_fiscal_year(fiscal_year=fiscal_year, as_dict=True)
-    # year_start_date = get_date_str(fiscal_year.get("year_start_date"))
+    fiscal_year = get_fiscal_year(fiscal_year=fiscal_year, as_dict=True)
+    year_start_date = get_date_str(fiscal_year.get("year_start_date"))
     # year_end_date = get_date_str(fiscal_year.get("year_end_date"))
     filters_leave_balance = {
-        "from_date": today(),
+        "from_date": year_start_date,
         "to_date": add_days(today(), 1),
         "company": company,
         "employee": employee,
@@ -509,7 +509,7 @@ def get_notice_board(employee=None):
 def get_attendance_details(emp_data):
     last_date = get_last_day(today())
     first_date = get_first_day(today())
-    total_days = date_diff(last_date, first_date)
+    total_days = date_diff(last_date, first_date) + 1
     till_date_days = date_diff(today(), first_date)
     days_off = 0
     absent = 0
