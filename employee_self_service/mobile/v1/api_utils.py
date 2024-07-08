@@ -150,3 +150,12 @@ def update_workflow_state(reference_doctype, reference_name, action):
     except Exception as e:
         frappe.db.rollback()
         return exception_handler(e)
+
+def convert_timezone(timestamp, from_timestamp, time_zone):
+    from pytz import UnknownTimeZoneError, timezone
+
+    fromtimezone = timezone(from_timestamp).localize(timestamp)
+    try:
+        return fromtimezone.astimezone(timezone(time_zone))
+    except UnknownTimeZoneError:
+        return fromtimezone
