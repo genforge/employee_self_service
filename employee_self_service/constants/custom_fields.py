@@ -4,21 +4,21 @@ CUSTOM_FIELDS = {
     "Branch": [
         {
             "fieldname": "latitude",
-            "label": "latitude",
+            "label": "Latitude",
             "fieldtype": "Data",
             "insert_after": "branch",
             "translatable": 1,
         },
         {
             "fieldname": "longitude",
-            "label": "longitude",
+            "label": "Longitude",
             "fieldtype": "Data",
             "insert_after": "latitude",
             "translatable": 1,
         },
         {
             "fieldname": "radius",
-            "label": "radius",
+            "label": "Radius",
             "fieldtype": "Data",
             "insert_after": "longitude",
             "translatable": 1,
@@ -62,6 +62,21 @@ CUSTOM_FIELDS = {
             "label": "Show in Mobile",
             "fieldtype": "Check",
             "insert_after": "disabled",
+        },
+    ],
+    "Employee": [
+        {
+            "fieldname": "custom_employee_branches_tab",
+            "label": "Employee Branches",
+            "fieldtype": "Section Break",
+            "insert_after": "grade",
+        },
+        {
+            "fieldname": "custom_employee_branch_table",
+            "label": "Employee Branches",
+            "fieldtype": "Table",
+            "options": "Employee Branch Details",
+            "insert_after": "custom_employee_branches_tab",
         },
     ],
 }

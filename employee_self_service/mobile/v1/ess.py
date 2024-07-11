@@ -1564,15 +1564,17 @@ def on_holiday_event():
 @ess_validate(methods=["GET"])
 def get_branch():
     try:
-        emp_data = get_employee_by_user(frappe.session.user, fields=["branch"])
-        branch = frappe.db.get_value(
-            "Branch",
-            {"branch": emp_data.get("branch")},
-            ["branch", "latitude", "longitude", "radius"],
-            as_dict=1,
-        )
+        emp_data = get_employee_by_user(frappe.session.user, fields=["custom_employee_branch_table"])
+        branch_list = []
+        for branch in emp_data.custom_employee_branch_table:
+            branch_list.append(frappe.db.get_value(
+                "Branch",
+                {"branch": branch.branch},
+                ["branch", "latitude", "longitude", "radius"],
+                as_dict=1,
+            ))
 
-        return gen_response(200, "Branch", branch)
+        return gen_response(200, "Branch", branch_list)
     except Exception as e:
         return exception_handler(e)
 
