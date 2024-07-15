@@ -10,6 +10,11 @@ from google.oauth2 import service_account
 
 class PushNotification(Document):
     def after_insert(self):
+        server_key = frappe.db.get_single_value(
+            "Employee Self Service Settings", "firebase_server_key"
+        )
+        if not server_key:
+            return
         if self.send_for == "Single User":
             token = frappe.db.get_value(
                 "Employee Device Info",
