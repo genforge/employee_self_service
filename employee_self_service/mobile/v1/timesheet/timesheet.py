@@ -94,7 +94,7 @@ def get_task_list(filters=None):
 @ess_validate(methods=["GET"])
 def get_project_list(start=0, page_length=10, filters=None):
     try:
-        project_list = frappe.get_list("Project",filters=filters,fields=["name","project_name"],start=start,
+        project_list = frappe.get_list("Project",filters=filters,fields=["name","project_name","customer"],start=start,
             page_length=page_length,)
         return gen_response(200,"Project list get successfully",project_list)
     except frappe.PermissionError:
