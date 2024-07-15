@@ -68,10 +68,12 @@ class PushNotification(Document):
                 self.save()
 
 def _get_access_token():
-    GOOGLE_APPLICATION_CREDENTIALS = "/home/manav/nesscale-bench/apps/employee_self_service/employee_self_service/service_account.json"
+    settings = frappe.get_single('Employee Self Service Settings')
+    file_url = settings.firebase_server_key
+    file_path= frappe.get_site_path() + file_url
     SCOPES = ['https://www.googleapis.com/auth/firebase.messaging']
     credentials = service_account.Credentials.from_service_account_file(
-        GOOGLE_APPLICATION_CREDENTIALS, scopes=SCOPES)
+        file_path, scopes=SCOPES)
     request = google.auth.transport.requests.Request()
     credentials.refresh(request)
     return credentials.token

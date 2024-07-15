@@ -54,9 +54,9 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "for the push notification",
+   "description": "Remember to set as private before uploading.",
    "fieldname": "firebase_server_key",
-   "fieldtype": "Small Text",
+   "fieldtype": "Attach",
    "label": "Firebase Server Key"
   },
   {
@@ -182,7 +182,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-04-04 22:29:10.233245",
+ "modified": "2024-07-15 12:43:36.551554",
  "modified_by": "Administrator",
  "module": "Employee Self Service",
  "name": "Employee Self Service Settings",
