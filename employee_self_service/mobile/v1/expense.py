@@ -190,7 +190,7 @@ def apply_expense(**data):
 def update_expense(**data):
     try:
         emp_data = get_employee_by_user(
-            frappe.session.user, fields=["name", "company", "expense_approver"]
+            frappe.session.user, fields=["name", "company"]
         )
 
         if not len(emp_data) >= 1:
@@ -198,32 +198,15 @@ def update_expense(**data):
         validate_employee_data(emp_data)
 
         if not frappe.db.exists(
-            "Expense Claim", {"name": frappe.form_dict.id, "employee": emp_data.name}
+            "Expense Claim", {"name": data.get("id"), "employee": emp_data.name}
         ):
             return gen_response(500, "Invalid ID")
 
-        payable_account = get_payable_account(emp_data.get("company"))
-        expense_doc = frappe.get_doc(
-            dict(
-                doctype="Expense Claim",
-                employee=emp_data.name,
-                expense_approver=emp_data.expense_approver,
-                posting_date=today(),
-                company=emp_data.get("company"),
-                payable_account=payable_account,
-                items=frappe.form_dict.items,
-            )
-        )
+        expense_doc = frappe.get_doc("Expense Claim", data.get("id"))
         expense_doc.update(data)
-        expense_doc.insert()
+        expense_doc.save(ignore_permissions=True)
 
-        if "file" in frappe.request.files:
-            file = upload_file()
-            file.attached_to_doctype = "Expense Claim"
-            file.attached_to_name = expense_doc.name
-            file.save(ignore_permissions=True)
-
-        return gen_response(200, "Expense applied Successfully", expense_doc)
+        return gen_response(200, "Expense updated Successfully", expense_doc)
     except Exception as e:
         return exception_handler(e)
 
@@ -243,3 +226,19 @@ def get_payable_account(company):
         else:
             return default_payable_account
     return default_payable_account
+
+
+@frappe.whitelist()
+@ess_validate(methods=["GET"])
+def get_expense(*args, **kwargs):
+    try:
+        data = kwargs
+        expense_doc = json.loads(
+            frappe.get_doc("Expense Claim", data.get("id")).as_json()
+        )
+
+        gen_response(200, "Expense detail get successfully.", expense_doc)
+    except frappe.PermissionError:
+        return gen_response(500, "Not permitted for Expense")
+    except Exception as e:
+        return exception_handler(e)

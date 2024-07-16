@@ -13,8 +13,11 @@ from employee_self_service.mobile.v1.api_utils import (
     exception_handler,
     get_actions,
     check_workflow_exists,
+    get_employee_by_user
 )
 from erpnext.accounts.party import get_dashboard_info
+
+from employee_self_service.mobile.v1.ess import download_pdf
 
 """order list api for mobile app"""
 
@@ -70,6 +73,7 @@ def get_quotation(*args, **kwargs):
         )
         for response_field in [
             "name",
+            "quotation_to",
             "party_name",
             "transaction_date",
             "valid_till",
@@ -79,6 +83,7 @@ def get_quotation(*args, **kwargs):
             "contact_email",
             "contact_mobile",
             "company",
+            "terms"
         ]:
             quotation_data[response_field] = quotation_doc.get(response_field)
         item_list = []
@@ -289,9 +294,9 @@ def create_quotation(*args, **kwargs):
             if not frappe.db.exists("Quotation", data.get("id"), cache=True):
                 return gen_response(500, "Invalid id.")
             doc = frappe.get_doc("Quotation", data.get("id"))
-            _create_update_order(
+            _create_update_quotation(
                 data=data,
-                sales_order_doc=doc,
+                quotation_doc=doc,
                 default_warehouse=ess_settings.get("default_warehouse"),
             )
             gen_response(200, "Updated successfully.", doc.name)
@@ -302,9 +307,9 @@ def create_quotation(*args, **kwargs):
                     company=global_defaults.get("default_company"),
                 )
             )
-            _create_update_order(
+            _create_update_quotation(
                 data=data,
-                sales_order_doc=doc,
+                quotation_doc=doc,
                 default_warehouse=ess_settings.get("default_warehouse"),
             )
             if data.get("attachments") is not None:
@@ -326,15 +331,15 @@ def create_quotation(*args, **kwargs):
         return exception_handler(e)
 
 
-def _create_update_order(data, sales_order_doc, default_warehouse):
+def _create_update_quotation(data, quotation_doc, default_warehouse):
     valid_till = data.get("valid_till")
     for item in data.get("items"):
         item["valid_till"] = valid_till
         item["warehouse"] = default_warehouse
-    sales_order_doc.update(data)
-    # sales_order_doc.run_method("set_missing_values")
-    sales_order_doc.run_method("calculate_taxes_and_totals")
-    sales_order_doc.save()
+    quotation_doc.update(data)
+    # quotation_doc.run_method("set_missing_values")
+    quotation_doc.run_method("calculate_taxes_and_totals")
+    quotation_doc.save()
 
 
 @frappe.whitelist()
@@ -350,5 +355,35 @@ def get_item_group_list(filters=None):
         gen_response(200, "Item group list get successfully", item_group_list)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for item")
+    except Exception as e:
+        return exception_handler(e)
+
+
+@frappe.whitelist()
+@ess_validate(methods=["GET"])
+def get_lead_list():
+    try:
+        lead_list = frappe.get_all("Lead", fields=["name"])
+        gen_response(200, "Lead list get successfully", lead_list)
+    except frappe.PermissionError:
+        return gen_response(500, "Not permitted for lead")
+    except Exception as e:
+        return exception_handler(e)
+
+
+@frappe.whitelist()
+@ess_validate(methods=["GET"])
+def download_quotation_pdf(id):
+    try:
+        quotation_doc = frappe.get_doc("Quotation", id)
+        default_print_format = (
+            frappe.db.get_value(
+                "Property Setter",
+                dict(property="default_print_format", doc_type=quotation_doc.doctype),
+                "value",
+            )
+            or "Standard"
+        )
+        download_pdf(quotation_doc.doctype, quotation_doc.name, default_print_format, quotation_doc)
     except Exception as e:
         return exception_handler(e)
