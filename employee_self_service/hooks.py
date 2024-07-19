@@ -17,6 +17,7 @@ after_migrate = "employee_self_service.setup.after_install"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/employee_self_service/css/employee_self_service.css"
 # app_include_js = "/assets/employee_self_service/js/employee_self_service.js"
+app_include_js = "/assets/employee_self_service/js/map.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/employee_self_service/css/employee_self_service.css"
@@ -34,6 +35,9 @@ after_migrate = "employee_self_service.setup.after_install"
 
 # include js in doctype views
 doctype_js = {"Employee Checkin": "public/js/employee_checkin.js"}
+doctype_js = {
+    "Branch": "public/js/geocode.js"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
