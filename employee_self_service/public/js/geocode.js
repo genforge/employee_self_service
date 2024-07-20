@@ -30,7 +30,6 @@ function initAutocomplete(frm) {
 
 frappe.ui.form.on('Branch', {
     refresh: function(frm) {
-        console.log("Initializing autocomplete address field");
         initAutocomplete(frm);
     },
     custom_address: function(frm) {

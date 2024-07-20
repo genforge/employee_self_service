@@ -1,5 +1,5 @@
 let script_ = document.createElement('script');
-const apiKey = 'AIzaSyDhKqaOvHzbVviz67ZPHjT3UEba2DNSzlw';
+const apiKey = 'AIzaSyD7ysTqTk23KX9cv71SVHnKjae24Ko_iNk';
 script_.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&callback=initMap`;
 script_.async = true;
 script_.defer = true;
