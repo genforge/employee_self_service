@@ -3,7 +3,7 @@ function initAutocomplete(frm) {
 
     
     const inputHtml = '<label class="control-label" style="padding-right: 0px;">Search Address</label><input class="form-control" placeholder="Search a location" id="autocomplete-address-source" style="height: 30px; margin-bottom: 5px;">';
-    $(frm.fields_dict.custom_address_search.wrapper).html(inputHtml);
+    $(frm.fields_dict.address_search.wrapper).html(inputHtml);
 
     
     setTimeout(() => {
@@ -18,7 +18,7 @@ function initAutocomplete(frm) {
                     const lng = place.geometry.location.lng();
                     frm.set_value('latitude', lat);
                     frm.set_value('longitude', lng);
-                    frm.set_value('custom_address', place.formatted_address);
+                    frm.set_value('address', place.formatted_address);
                     frm.save();
                 } else {
                     frappe.msgprint(__('No details available for input: ' + place.name));
@@ -32,8 +32,8 @@ frappe.ui.form.on('Branch', {
     refresh: function(frm) {
         initAutocomplete(frm);
     },
-    custom_address: function(frm) {
-        const address = frm.doc.custom_address;
+    address: function(frm) {
+        const address = frm.doc.address;
         if (address) {
             geocodeAddress(address, (error, location) => {
                 if (error) {

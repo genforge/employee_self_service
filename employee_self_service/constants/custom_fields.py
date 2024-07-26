@@ -23,6 +23,24 @@ CUSTOM_FIELDS = {
             "insert_after": "longitude",
             "translatable": 1,
         },
+        {
+            "fieldname": "address_search",
+            "label": "Address Search",
+            "fieldtype": "HTML",
+            "insert_after": "radius",
+        },
+        {
+            "fieldname": "address",
+            "label": "Address",
+            "fieldtype": "Data",
+            "insert_after": "address_search",
+        },
+        {
+            "fieldname": "column_break_branch",
+            "label": "",
+            "fieldtype": "Column Break",
+            "insert_after": "address",
+        },
     ],
     "Employee Checkin": [
         {
