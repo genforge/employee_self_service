@@ -103,7 +103,7 @@ def get_expense_claim_type_totals():
         validate_employee_data(emp_data)
         filters = frappe._dict()
         filters.employee = emp_data.get("name")
-        filters.workflow_state = "Approved"
+        filters.approval_status = "Approved"
         fields = [
             "`tabExpense Claim`.name",
             "`tabExpense Claim`.employee",
@@ -189,9 +189,7 @@ def apply_expense(**data):
 @ess_validate(methods=["POST"])
 def update_expense(**data):
     try:
-        emp_data = get_employee_by_user(
-            frappe.session.user, fields=["name", "company"]
-        )
+        emp_data = get_employee_by_user(frappe.session.user, fields=["name", "company"])
 
         if not len(emp_data) >= 1:
             return gen_response(500, "Employee does not exists")
@@ -205,6 +203,17 @@ def update_expense(**data):
         expense_doc = frappe.get_doc("Expense Claim", data.get("id"))
         expense_doc.update(data)
         expense_doc.save(ignore_permissions=True)
+
+        if data.get("attachments") is not None:
+            for file in data.get("attachments"):
+                file_doc = frappe.get_doc(
+                    dict(
+                        doctype="File",
+                        file_url=file.get("file_url"),
+                        attached_to_doctype="Expense Claim",
+                        attached_to_name=expense_doc.name,
+                    )
+                ).insert(ignore_permissions=True)
 
         return gen_response(200, "Expense updated Successfully", expense_doc)
     except Exception as e:
@@ -236,9 +245,17 @@ def get_expense(*args, **kwargs):
         expense_doc = json.loads(
             frappe.get_doc("Expense Claim", data.get("id")).as_json()
         )
-
+        expense_doc["attachments"] = get_attachments(data.get("id"))
         gen_response(200, "Expense detail get successfully.", expense_doc)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for Expense")
     except Exception as e:
         return exception_handler(e)
+
+
+def get_attachments(id):
+    return frappe.get_all(
+        "File",
+        filters={"attached_to_doctype": "Expense Claim", "attached_to_name": id},
+        fields=["file_url"],
+    )

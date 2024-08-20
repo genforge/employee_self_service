@@ -13,7 +13,7 @@ from employee_self_service.mobile.v1.api_utils import (
     exception_handler,
     get_actions,
     check_workflow_exists,
-    get_employee_by_user
+    get_employee_by_user,
 )
 from erpnext.accounts.party import get_dashboard_info
 
@@ -83,7 +83,7 @@ def get_quotation(*args, **kwargs):
             "contact_email",
             "contact_mobile",
             "company",
-            "terms"
+            "terms",
         ]:
             quotation_data[response_field] = quotation_doc.get(response_field)
         item_list = []
@@ -124,11 +124,20 @@ def get_quotation(*args, **kwargs):
             dashboard_info[0].get("total_unpaid") if dashboard_info else 0.0,
             currency=global_defaults.get("default_currency"),
         )
+        quotation_data["attachments"] = get_attachments(data.get("id"))
         gen_response(200, "Quotation detail get successfully.", quotation_data)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for sales order")
     except Exception as e:
         return exception_handler(e)
+
+
+def get_attachments(id):
+    return frappe.get_all(
+        "File",
+        filters={"attached_to_doctype": "Quotation", "attached_to_name": id},
+        fields=["file_url"],
+    )
 
 
 # def get_actions(doc, doc_data=None):
@@ -384,6 +393,11 @@ def download_quotation_pdf(id):
             )
             or "Standard"
         )
-        download_pdf(quotation_doc.doctype, quotation_doc.name, default_print_format, quotation_doc)
+        download_pdf(
+            quotation_doc.doctype,
+            quotation_doc.name,
+            default_print_format,
+            quotation_doc,
+        )
     except Exception as e:
         return exception_handler(e)

@@ -139,11 +139,20 @@ def get_order(*args, **kwargs):
             dashboard_info[0].get("total_unpaid") if dashboard_info else 0.0,
             currency=global_defaults.get("default_currency"),
         )
+        order_data["attachments"] = get_attachments(data.get("order_id"))
         gen_response(200, "Order detail get successfully.", order_data)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for sales order")
     except Exception as e:
         return exception_handler(e)
+
+
+def get_attachments(id):
+    return frappe.get_all(
+        "File",
+        filters={"attached_to_doctype": "Sales Order", "attached_to_name": id},
+        fields=["file_url"],
+    )
 
 
 # def get_actions(doc, doc_data=None):
