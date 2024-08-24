@@ -31,7 +31,6 @@ def get_quotation_list(start=0, page_length=10, filters=None):
             "Quotation",
             fields=[
                 "name",
-                "customer",
                 "customer_name",
                 "DATE_FORMAT(transaction_date, '%d-%m-%Y') as transaction_date",
                 "grand_total",
