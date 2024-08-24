@@ -30,6 +30,7 @@ from employee_self_service.mobile.v1.api_utils import (
     get_global_defaults,
     exception_handler,
     convert_timezone,
+    get_system_timezone
 )
 from frappe.handler import upload_file
 from erpnext.accounts.utils import get_fiscal_year
@@ -37,7 +38,6 @@ from erpnext.accounts.utils import get_fiscal_year
 from employee_self_service.employee_self_service.doctype.push_notification.push_notification import (
     create_push_notification,
 )
-from frappe.utils.data import get_system_timezone
 
 
 @frappe.whitelist(allow_guest=True)
@@ -2213,9 +2213,9 @@ def get_profile_detail_tabs():
         response["education_details"] = education_details
 
         bank_details = {}
-        bank_details["bank_name"] = emp_doc.bank_name
-        bank_details["bank_ac_no"] = emp_doc.bank_ac_no
-        bank_details["iban"] = emp_doc.iban
+        bank_details["bank_name"] = emp_doc.get('bank_name') or ""
+        bank_details["bank_ac_no"] = emp_doc.get('bank_ac_no') or ""
+        bank_details["iban"] = emp_doc.get('iban') or ""
         response["bank_details"] = bank_details
         return gen_response(200, "Profile Details get successfully", response)
     except Exception as e:
