@@ -160,3 +160,10 @@ def convert_timezone(timestamp, from_timestamp, time_zone):
         return fromtimezone.astimezone(timezone(time_zone))
     except UnknownTimeZoneError:
         return fromtimezone
+
+
+def get_system_timezone() -> str:
+    """Return the system timezone."""
+    return (
+        frappe.get_system_settings("time_zone") or "Asia/Kolkata"
+    )  # Default to India ?!
