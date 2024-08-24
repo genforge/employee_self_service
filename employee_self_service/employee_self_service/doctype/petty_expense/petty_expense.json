@@ -33,9 +33,8 @@
   },
   {
    "fieldname": "supplier",
-   "fieldtype": "Link",
-   "label": "Supplier",
-   "options": "Supplier"
+   "fieldtype": "Data",
+   "label": "Supplier"
   },
   {
    "fetch_from": "supplier.supplier_name",
@@ -117,7 +116,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-22 17:40:16.860739",
+ "modified": "2024-08-20 09:44:21.031926",
  "modified_by": "Administrator",
  "module": "Employee Self Service",
  "name": "Petty Expense",
