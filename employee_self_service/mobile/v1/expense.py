@@ -173,11 +173,17 @@ def apply_expense(**data):
         expense_doc.update(data)
         expense_doc.insert()
 
-        if "file" in frappe.request.files:
-            file = upload_file()
-            file.attached_to_doctype = "Expense Claim"
-            file.attached_to_name = expense_doc.name
-            file.save(ignore_permissions=True)
+        if data.get("attachments") is not None:
+            for file in data.get("attachments"):
+                file_doc = frappe.get_doc(
+                    {
+                        "doctype": "File",
+                        "file_url": file.get("file_url"),
+                        "attached_to_doctype": "Expense Claim",
+                        "attached_to_name": expense_doc.name,
+                    }
+                )
+                file_doc.insert(ignore_permissions=True)
 
         return gen_response(200, "Expense applied Successfully", expense_doc)
     except Exception as e:
@@ -242,10 +248,15 @@ def get_payable_account(company):
 def get_expense(*args, **kwargs):
     try:
         data = kwargs
+        global_defaults = get_global_defaults()
         expense_doc = json.loads(
             frappe.get_doc("Expense Claim", data.get("id")).as_json()
         )
         expense_doc["attachments"] = get_attachments(data.get("id"))
+        expense_doc["total_claimed_amount"] = fmt_money(
+            expense_doc["total_claimed_amount"],
+            currency=global_defaults.get("default_currency"),
+        )
         gen_response(200, "Expense detail get successfully.", expense_doc)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for Expense")
@@ -257,5 +268,5 @@ def get_attachments(id):
     return frappe.get_all(
         "File",
         filters={"attached_to_doctype": "Expense Claim", "attached_to_name": id},
-        fields=["file_url"],
+        fields=["file_url", "file_name"],
     )

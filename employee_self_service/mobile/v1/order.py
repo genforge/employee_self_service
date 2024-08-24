@@ -151,7 +151,7 @@ def get_attachments(id):
     return frappe.get_all(
         "File",
         filters={"attached_to_doctype": "Sales Order", "attached_to_name": id},
-        fields=["file_url"],
+        fields=["file_url", "file_name"],
     )
 
 
@@ -325,6 +325,17 @@ def create_order(*args, **kwargs):
                 sales_order_doc=sales_order_doc,
                 default_warehouse=ess_settings.get("default_warehouse"),
             )
+            if data.get("attachments") is not None:
+                for file in data.get("attachments"):
+                    file_doc = frappe.get_doc(
+                        {
+                            "doctype": "File",
+                            "file_url": file.get("file_url"),
+                            "attached_to_doctype": "Sales Order",
+                            "attached_to_name": sales_order_doc.name,
+                        }
+                    )
+                    file_doc.insert(ignore_permissions=True)
             gen_response(200, "Order updated successfully.", sales_order_doc.name)
         else:
             sales_order_doc = frappe.get_doc(

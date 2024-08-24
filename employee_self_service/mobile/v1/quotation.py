@@ -136,7 +136,7 @@ def get_attachments(id):
     return frappe.get_all(
         "File",
         filters={"attached_to_doctype": "Quotation", "attached_to_name": id},
-        fields=["file_url"],
+        fields=["file_url", "file_name"],
     )
 
 
@@ -308,6 +308,17 @@ def create_quotation(*args, **kwargs):
                 quotation_doc=doc,
                 default_warehouse=ess_settings.get("default_warehouse"),
             )
+            if data.get("attachments") is not None:
+                for file in data.get("attachments"):
+                    file_doc = frappe.get_doc(
+                        {
+                            "doctype": "File",
+                            "file_url": file.get("file_url"),
+                            "attached_to_doctype": "Quotation",
+                            "attached_to_name": doc.name,
+                        }
+                    )
+                    file_doc.insert(ignore_permissions=True)
             gen_response(200, "Updated successfully.", doc.name)
         else:
             doc = frappe.get_doc(
