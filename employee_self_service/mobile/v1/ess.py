@@ -29,6 +29,8 @@ from employee_self_service.mobile.v1.api_utils import (
     get_ess_settings,
     get_global_defaults,
     exception_handler,
+    convert_timezone,
+    get_system_timezone
 )
 from frappe.handler import upload_file
 from erpnext.accounts.utils import get_fiscal_year
@@ -166,7 +168,7 @@ def get_leave_application_list():
 def get_leave_balance_report(employee, company, fiscal_year):
     fiscal_year = get_fiscal_year(fiscal_year=fiscal_year, as_dict=True)
     year_start_date = get_date_str(fiscal_year.get("year_start_date"))
-    # year_end_date = get_date_str(fiscal_year.get("year_end_date"))
+    year_end_date = get_date_str(fiscal_year.get("year_end_date"))
     filters_leave_balance = {
         "from_date": year_start_date,
         "to_date": add_days(today(), 1),
@@ -177,13 +179,12 @@ def get_leave_balance_report(employee, company, fiscal_year):
 
     result = run("Employee Leave Balance", filters=filters_leave_balance)
     for row in result.get("result"):
-        frappe.log_error(title="180", message=row)
-        frappe.log_error(title="180", message=type(row.get("employee")))
         if isinstance(row.get("employee"), tuple):
             row["employee"] = employee
     return result
 
 
+# moved to expense.py
 @frappe.whitelist()
 def get_expense_type():
     try:
@@ -236,6 +237,7 @@ def book_expense(*args, **kwargs):
         return exception_handler(e)
 
 
+# moved to expense.py
 def get_payable_account(company):
     ess_settings = get_ess_settings()
     default_payable_account = ess_settings.get("default_payable_account")
@@ -390,7 +392,9 @@ def download_pdf(doctype, name, format=None, doc=None, no_letterhead=0):
 @ess_validate(methods=["GET"])
 def get_dashboard():
     try:
-        emp_data = get_employee_by_user(frappe.session.user, fields=["name", "company", "image", "employee_name"])
+        emp_data = get_employee_by_user(
+            frappe.session.user, fields=["name", "company", "image", "employee_name"]
+        )
         notice_board = get_notice_board(emp_data.get("name"))
         # attendance_details = get_attendance_details(emp_data)
         log_details = get_last_log_details(emp_data.get("name"))
@@ -406,9 +410,11 @@ def get_dashboard():
             "version": settings.get("version") or "1.0",
             "update_version_forcefully": settings.get("update_version_forcefully") or 1,
             "company": emp_data.get("company") or "Employee Dashboard",
-            "last_log_time": log_details.get("time").strftime("%I:%M%p")
-            if log_details.get("time")
-            else "",
+            "last_log_time": (
+                log_details.get("time").strftime("%I:%M %p")
+                if log_details.get("time")
+                else ""
+            ),
             "check_in_with_image": settings.get("check_in_with_image"),
             "check_in_with_location": settings.get("check_in_with_location"),
             "quick_task": settings.get("quick_task"),
@@ -468,6 +474,12 @@ def get_last_log_details(employee):
     )
 
     if log_details:
+        user_time_zone = frappe.db.get_value("User", frappe.session.user, "time_zone")
+        system_timezone = get_system_timezone()
+        if user_time_zone:
+            log_details[0].time = convert_timezone(
+                log_details[0].time, system_timezone, user_time_zone
+            )
         return log_details[0]
     else:
         return {"log_type": "OUT", "time": None}
@@ -502,7 +514,7 @@ def get_notice_board(employee=None):
 def get_attendance_details(emp_data):
     last_date = get_last_day(today())
     first_date = get_first_day(today())
-    total_days = date_diff(last_date, first_date)
+    total_days = date_diff(last_date, first_date) + 1
     till_date_days = date_diff(today(), first_date)
     days_off = 0
     absent = 0
@@ -761,7 +773,6 @@ def get_employees_having_an_event_today(event_type, date=None):
 @ess_validate(methods=["GET"])
 def get_task_list(start=0, page_length=10, filters=None):
     try:
-        frappe.log_error(title="filters",message=filters)
         tasks = frappe.get_list(
             "Task",
             fields=[
@@ -775,9 +786,9 @@ def get_task_list(start=0, page_length=10, filters=None):
                 "_assign as assigned_to",
                 "owner as assigned_by",
                 "progress",
-                "issue"
+                "issue",
             ],
-            filters = filters,
+            filters=filters,
             start=start,
             page_length=page_length,
             order_by="modified desc",
@@ -794,7 +805,9 @@ def get_task_list(start=0, page_length=10, filters=None):
             if task.get("assigned_to"):
                 task["assigned_to"] = frappe.get_all(
                     "User",
-                    filters=[["User", "email", "in", json.loads(task.get("assigned_to"))]],
+                    filters=[
+                        ["User", "email", "in", json.loads(task.get("assigned_to"))]
+                    ],
                     fields=["full_name as user", "user_image"],
                     order_by="creation asc",
                 )
@@ -806,6 +819,7 @@ def get_task_list(start=0, page_length=10, filters=None):
     except Exception as e:
         return exception_handler(e)
 
+
 def get_task_assigned_by(task):
     task["assigned_by"] = frappe.db.get_value(
         "User",
@@ -813,7 +827,6 @@ def get_task_assigned_by(task):
         ["full_name as user", "user_image"],
         as_dict=1,
     )
-
 
 
 def get_task_comments(task):
@@ -830,7 +843,7 @@ def get_task_comments(task):
             "creation",
             "comment_email",
         ],
-    )    
+    )
     for comment in comments:
         comment["commented"] = pretty_date(comment["creation"])
         comment["creation"] = comment["creation"].strftime("%I:%M %p")
@@ -841,6 +854,7 @@ def get_task_comments(task):
 
     task["comments"] = comments
     task["num_comments"] = len(comments)
+
 
 def validate_assign_task(task_id):
     assigned_to = frappe.get_value(
@@ -880,15 +894,16 @@ def update_task_status(task_id=None, new_status=None):
     except Exception as e:
         return exception_handler(e)
 
+
 @frappe.whitelist()
 @ess_validate(methods=["POST"])
-def update_task_progress(task_id=None,progress=None):
+def update_task_progress(task_id=None, progress=None):
     try:
         if not task_id or not progress:
             return gen_response(500, "task id and progress is required")
         validate_assign_task(task_id=task_id)
         if progress:
-            frappe.db.set_value("Task",task_id,"progress",progress)
+            frappe.db.set_value("Task", task_id, "progress", progress)
         return gen_response(200, "Progress updated successfully")
     except frappe.PermissionError:
         return gen_response(500, "Not permitted for update task")
@@ -1644,9 +1659,7 @@ def get_task_by_id(task_id=None):
     try:
         if not task_id:
             return gen_response(500, "task_id is required", [])
-        filters = [
-            ["Task", "name", "=", task_id]
-        ]
+        filters = [["Task", "name", "=", task_id]]
         tasks = frappe.db.get_value(
             "Task",
             {"name": task_id},
@@ -1665,23 +1678,23 @@ def get_task_by_id(task_id=None):
                 "completed_by",
                 "completed_on",
                 "progress",
-                "issue"
+                "issue",
             ],
             as_dict=1,
         )
         if not tasks:
             return gen_response(500, "you have not task with this task id", [])
-            
+
         tasks["assigned_by"] = frappe.db.get_value(
             "User",
             {"name": tasks.get("assigned_by")},
-            ["name","full_name as user", "full_name", "user_image"],
+            ["name", "full_name as user", "full_name", "user_image"],
             as_dict=1,
         )
         tasks["completed_by"] = frappe.db.get_value(
             "User",
             {"name": tasks.get("completed_by")},
-            ["name","full_name as user", "full_name", "user_image"],
+            ["name", "full_name as user", "full_name", "user_image"],
             as_dict=1,
         )
         tasks["project_name"] = frappe.db.get_value(
@@ -1692,7 +1705,7 @@ def get_task_by_id(task_id=None):
             tasks["assigned_to"] = frappe.get_all(
                 "User",
                 filters=[["User", "email", "in", json.loads(tasks.get("assigned_to"))]],
-                fields=["name","full_name as user", "full_name", "user_image"],
+                fields=["name", "full_name as user", "full_name", "user_image"],
                 order_by="creation asc",
             )
 
@@ -1728,6 +1741,7 @@ def get_task_by_id(task_id=None):
         return exception_handler(e)
 
 
+# moved to expense.py
 @frappe.whitelist()
 @ess_validate(methods=["POST"])
 def apply_expense():
@@ -1943,13 +1957,15 @@ def get_transactions(
 @ess_validate(methods=["GET"])
 def get_customer_list(start=0, page_length=10, filters=None):
     try:
-        customer = frappe.get_list("Customer", ["name", "customer_name"],  
+        customer_list = frappe.get_list(
+            "Customer",
+            ["name", "customer_name", "mobile_no as phone"],
             start=start,
             filters=filters,
             page_length=page_length,
             order_by="modified desc",
         )
-        return gen_response(200, "Customr list Getting Successfully", customer)
+        return gen_response(200, "Customer list get successfully", customer_list)
     except frappe.PermissionError:
         return gen_response(500, "Not permitted read customer")
     except Exception as e:
@@ -2083,21 +2099,31 @@ def update_task(**kwargs):
 
         data = kwargs
         task_doc = frappe.get_doc("Task", data.get("name"))
+        if data.get("assign_to"):
+            assign_to_list = data.get("assign_to")
+            del data["assign_to"]
+        
         task_doc.update(data)
         task_doc.save()
-        if data.get("assign_to"):
+        if assign_to_list:
+            if isinstance(assign_to_list, str):
+                assign_to_list = [assign_to_list]
+            
+            # for assign_to_user in assign_to_list:
             assign_to.add(
                 {
-                    "assign_to": data.get("assign_to"),
+                    "assign_to": assign_to_list,
                     "doctype": task_doc.doctype,
                     "name": task_doc.name,
                 }
             )
+
         return gen_response(200, "Task has been updated successfully")
     except frappe.PermissionError:
-        return gen_response(500, "Not permitted for update task")
+        return gen_response(500, "Not permitted to update task")
     except Exception as e:
         return exception_handler(e)
+
 
 
 @frappe.whitelist()
@@ -2170,3 +2196,35 @@ def get_task_status_list():
 #             user=doc.allocated_to,
 #             notification_type="task_comment",
 #         )
+
+
+@frappe.whitelist()
+@ess_validate(methods=["GET"])
+def get_profile_detail_tabs():
+    try:
+        emp_data = get_employee_by_user(frappe.session.user)
+        emp_doc = frappe.get_doc("Employee", emp_data.get("name"))
+        response = {}
+
+        personal_details = {}
+        personal_details["date_of_birth"] = emp_doc.date_of_birth
+        personal_details["personal_email"] = emp_doc.personal_email
+        personal_details["gender"] = emp_doc.gender
+        personal_details["cell_number"] = emp_doc.cell_number
+        personal_details["current_address"] = emp_doc.current_address
+        personal_details["person_to_be_contacted"] = emp_doc.person_to_be_contacted
+        personal_details["emergency_phone_number"] = emp_doc.emergency_phone_number
+        response["personal_details"] = personal_details
+
+        education_details = {}
+        education_details["education"] = emp_doc.education
+        response["education_details"] = education_details
+
+        bank_details = {}
+        bank_details["bank_name"] = emp_doc.get('bank_name') or ""
+        bank_details["bank_ac_no"] = emp_doc.get('bank_ac_no') or ""
+        bank_details["iban"] = emp_doc.get('iban') or ""
+        response["bank_details"] = bank_details
+        return gen_response(200, "Profile Details get successfully", response)
+    except Exception as e:
+        return exception_handler(e)
