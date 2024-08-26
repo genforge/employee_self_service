@@ -168,7 +168,7 @@ def get_leave_application_list():
 def get_leave_balance_report(employee, company, fiscal_year):
     fiscal_year = get_fiscal_year(fiscal_year=fiscal_year, as_dict=True)
     year_start_date = get_date_str(fiscal_year.get("year_start_date"))
-    # year_end_date = get_date_str(fiscal_year.get("year_end_date"))
+    year_end_date = get_date_str(fiscal_year.get("year_end_date"))
     filters_leave_balance = {
         "from_date": year_start_date,
         "to_date": add_days(today(), 1),
@@ -179,8 +179,6 @@ def get_leave_balance_report(employee, company, fiscal_year):
 
     result = run("Employee Leave Balance", filters=filters_leave_balance)
     for row in result.get("result"):
-        frappe.log_error(title="180", message=row)
-        frappe.log_error(title="180", message=type(row.get("employee")))
         if isinstance(row.get("employee"), tuple):
             row["employee"] = employee
     return result
@@ -2101,21 +2099,31 @@ def update_task(**kwargs):
 
         data = kwargs
         task_doc = frappe.get_doc("Task", data.get("name"))
+        if data.get("assign_to"):
+            assign_to_list = data.get("assign_to")
+            del data["assign_to"]
+        
         task_doc.update(data)
         task_doc.save()
-        if data.get("assign_to"):
+        if assign_to_list:
+            if isinstance(assign_to_list, str):
+                assign_to_list = [assign_to_list]
+            
+            # for assign_to_user in assign_to_list:
             assign_to.add(
                 {
-                    "assign_to": data.get("assign_to"),
+                    "assign_to": assign_to_list,
                     "doctype": task_doc.doctype,
                     "name": task_doc.name,
                 }
             )
+
         return gen_response(200, "Task has been updated successfully")
     except frappe.PermissionError:
-        return gen_response(500, "Not permitted for update task")
+        return gen_response(500, "Not permitted to update task")
     except Exception as e:
         return exception_handler(e)
+
 
 
 @frappe.whitelist()
