@@ -30,7 +30,7 @@ from employee_self_service.mobile.v1.api_utils import (
     get_global_defaults,
     exception_handler,
     convert_timezone,
-    get_system_timezone
+    get_system_timezone,
 )
 from frappe.handler import upload_file
 from erpnext.accounts.utils import get_fiscal_year
@@ -421,6 +421,7 @@ def get_dashboard():
         dashboard_data["employee_name"] = emp_data.get("employee_name")
         get_latest_expense(dashboard_data, emp_data.get("name"))
         get_latest_ss(dashboard_data, emp_data.get("name"))
+        # get_latest_leave(dashboard_data, emp_data.get("name"))
         get_last_log_type(dashboard_data, emp_data.get("name"))
         return gen_response(200, "Dashboard data get successfully", dashboard_data)
 
@@ -2204,9 +2205,9 @@ def get_profile_detail_tabs():
         response["education_details"] = education_details
 
         bank_details = {}
-        bank_details["bank_name"] = emp_doc.get('bank_name') or ""
-        bank_details["bank_ac_no"] = emp_doc.get('bank_ac_no') or ""
-        bank_details["iban"] = emp_doc.get('iban') or ""
+        bank_details["bank_name"] = emp_doc.get("bank_name") or ""
+        bank_details["bank_ac_no"] = emp_doc.get("bank_ac_no") or ""
+        bank_details["iban"] = emp_doc.get("iban") or ""
         response["bank_details"] = bank_details
         return gen_response(200, "Profile Details get successfully", response)
     except Exception as e:
