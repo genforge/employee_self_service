@@ -7,7 +7,6 @@ from employee_self_service.mobile.v1.api_utils import (
 )
 from frappe.utils import cint,get_url_to_form
 from operator import itemgetter
-from frappe.model.workflow import get_transitions
 
 
 
@@ -29,7 +28,7 @@ def get_active_workflow_document(internal=False):
 
 @frappe.whitelist()
 @ess_validate(methods=["GET"])
-def get_workflow_documents(start=1, page_length=10,document_type=None,internal=False):
+def get_workflow_documents(start=1, page_length=10,document_type=None):
     try:
         documents = []
         if document_type == "All" or not document_type:
@@ -42,8 +41,7 @@ def get_workflow_documents(start=1, page_length=10,document_type=None,internal=F
             workflow_documents = frappe.get_list(document_type, filters={}, fields=["name", "workflow_state", "modified"], order_by="modified desc")
             append_document(workflow_documents=workflow_documents, documents=documents, doctype=document_type)
             
-        if internal:
-            return len(documents)
+
         # Sort documents by modified date
         documents.sort(key=itemgetter("modified"), reverse=True)
 
@@ -60,21 +58,15 @@ def get_workflow_documents(start=1, page_length=10,document_type=None,internal=F
 
 def append_document(workflow_documents, documents, doctype):
     for row in workflow_documents:
-        doc = frappe.get_doc(doctype, row["name"])
-        try:
-            transitions = get_transitions(doc)
-            # Only append documents that have available actions (transitions)
-            if transitions:
-                row["doctype"] = doctype
-                documents.append(row)
-        except Exception as e:
-            pass
+        row["doctype"] = doctype
+        documents.append(row)
 
 @frappe.whitelist()
 @ess_validate(methods=["GET"])
 def get_actions(document_type,document_no):
     try:
         doc = frappe.get_doc(document_type,document_no)
+        from frappe.model.workflow import get_transitions
 
         transitions = get_transitions(doc)
         actions = []
