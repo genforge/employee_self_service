@@ -101,6 +101,7 @@ def get_order(*args, **kwargs):
             "cost_center",
             "company",
             "set_warehouse",
+            "discount_amount",
         ]:
             order_data[response_field] = order_doc.get(response_field)
         item_list = []
@@ -121,6 +122,7 @@ def get_order(*args, **kwargs):
                         "rate",
                         "image",
                         "rate_currency",
+                        "discount_amount",
                     ],
                     item,
                 )
@@ -138,6 +140,10 @@ def get_order(*args, **kwargs):
         )
         order_data["total_unpaid"] = fmt_money(
             dashboard_info[0].get("total_unpaid") if dashboard_info else 0.0,
+            currency=global_defaults.get("default_currency"),
+        )
+        order_data["discount_amount"] = fmt_money(
+            order_data["discount_amount"] if order_data["discount_amount"] else 0.0,
             currency=global_defaults.get("default_currency"),
         )
         order_data["attachments"] = get_attachments(data.get("order_id"))
@@ -287,14 +293,22 @@ def prepare_order_totals(*args, **kwargs):
         if not data.get("customer"):
             return gen_response(500, "Customer is required.")
         ess_settings = get_ess_settings()
+        total_discount = 0
         for item in data.get("items"):
             item["delivery_date"] = data.get("delivery_date")
             item["warehouse"] = ess_settings.get("default_warehouse")
+            if item["discount_amount"]:
+                total_discount = total_discount + (
+                    float(item["discount_amount"]) * item["qty"]
+                )
         global_defaults = get_global_defaults()
         sales_order_doc = frappe.get_doc(
             dict(doctype="Sales Order", company=global_defaults.get("default_company"))
         )
         sales_order_doc.update(data)
+        sales_order_doc.discount_amount = total_discount
+        sales_order_doc.apply_discount_on = "Grand Total"
+
         sales_order_doc.run_method("set_missing_values")
         sales_order_doc.run_method("calculate_taxes_and_totals")
         sales_order_doc = json.loads(sales_order_doc.as_json())
@@ -391,10 +405,17 @@ def create_order(*args, **kwargs):
 
 def _create_update_order(data, sales_order_doc, default_warehouse):
     delivery_date = data.get("delivery_date")
+    total_discount = 0
     for item in data.get("items"):
         item["delivery_date"] = delivery_date
         item["warehouse"] = default_warehouse
+        if item["discount_amount"]:
+            total_discount = total_discount + (
+                float(item["discount_amount"]) * item["qty"]
+            )
     sales_order_doc.update(data)
+    sales_order_doc.discount_amount = total_discount
+    sales_order_doc.apply_discount_on = "Grand Total"
     sales_order_doc.run_method("set_missing_values")
     sales_order_doc.run_method("calculate_taxes_and_totals")
     sales_order_doc.save()
