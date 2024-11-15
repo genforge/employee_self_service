@@ -20,7 +20,10 @@ event_mapping = {
 
 @frappe.whitelist()
 def notification(doc, event):
-    notification_processing(doc, event)
+    try:
+        notification_processing(doc, event)
+    except Exception as e:
+        frappe.log_error(title="ESS Notification Trigger Error",meesage=frappe.get_traceback())
 
 
 def get_user_tokens(notification_id, doc):
