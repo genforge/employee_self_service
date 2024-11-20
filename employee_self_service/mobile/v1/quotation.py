@@ -110,6 +110,7 @@ def get_quotation(*args, **kwargs):
                         "image",
                         "rate_currency",
                         "discount_amount",
+                        "discount_percentage",
                         "price_list_rate",
                         "price_list_rate_currency",
                     ],

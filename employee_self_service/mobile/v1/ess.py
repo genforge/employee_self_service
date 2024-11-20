@@ -56,6 +56,8 @@ def login(usr, pwd):
         gen_response(200, frappe.response["message"])
     except frappe.AuthenticationError:
         gen_response(500, frappe.response["message"])
+    except frappe.SecurityException:
+        gen_response(401, frappe.response["message"])
     except Exception as e:
         return exception_handler(e)
 
