@@ -75,7 +75,7 @@ def get_workflow_documents(start=1, page_length=10, document_type=None, internal
                 break
         all_documents = all_documents[start_index:end_index]
         if internal:
-            return len(all_documents)
+            return cstr(len(all_documents))
 
         return gen_response(
             200,
