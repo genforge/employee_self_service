@@ -1088,12 +1088,37 @@ def get_attendance_list(year=None, month=None):
         if not employee_attendance_list:
             return gen_response(500, "no attendance found for this year and month", [])
 
+        user_time_zone = frappe.db.get_value("User", frappe.session.user, "time_zone")
+        system_timezone = get_system_timezone()
+        to_convert_timezone = False
+        if user_time_zone != system_timezone:
+            to_convert_timezone = True
         for attendance in employee_attendance_list:
-            employee_checkin_details = frappe.get_all(
-                "Employee Checkin",
-                filters={"attendance": attendance.get("name")},
-                fields=["log_type", "time_format(time, '%h:%i%p') as time"],
-            )
+            employee_checkin_details = []
+            if to_convert_timezone:
+                if attendance["in_time"]:
+                    attendance["in_time"] = convert_timezone(
+                        attendance["in_time"], system_timezone, user_time_zone
+                    )
+                if attendance["out_time"]:
+                    attendance["out_time"] = convert_timezone(
+                        attendance["out_time"], system_timezone, user_time_zone
+                    )
+                employee_checkin_details = frappe.get_all(
+                    "Employee Checkin",
+                    filters={"attendance": attendance.get("name")},
+                    fields=["log_type", "time"],
+                )
+                for employee_checkin in employee_checkin_details:
+                    employee_checkin["time"] = convert_timezone(
+                        employee_checkin["time"], system_timezone, user_time_zone
+                    ).strftime("%I:%M %p")
+            else:
+                employee_checkin_details = frappe.get_all(
+                    "Employee Checkin",
+                    filters={"attendance": attendance.get("name")},
+                    fields=["log_type", "time_format(time, '%h:%i%p') as time"],
+                )
 
             attendance["employee_checkin_detail"] = employee_checkin_details
 
